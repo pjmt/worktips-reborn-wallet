@@ -5,6 +5,297 @@
     <ClCompile Include="worktipswallet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\Gui\AddressBook\AddressBookDelegate.cpp">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\AddressBook\AddressBookFrame.cpp">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\AddressBook\DonationColumnDelegate.cpp">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\AddressBook\NewAddressDialog.cpp">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\BlockchainExplorer\BlockDetailsDialog.cpp">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\BlockchainExplorer\BlockExplorerFrame.cpp">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\BlockchainExplorer\FilteredBlockModel.cpp">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\BlockchainExplorer\TransactionsBlockModel.cpp">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\BlockchainExplorer\WindowedBlockModel.cpp">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\AboutDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\AddressBookDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\BlockchainInstaller.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\ChangePasswordDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\ClearableLineEdit.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\CopyColumnDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\CopyMagicLabel.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\ExitWidget.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\GlassFrame.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\KeyDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\LinkLikeColumnDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\MagicLabel.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\NewPasswordDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\NewsFrame.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\NewTransactionDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\P2pBindPortErrorDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\PoolTransactionDetailsDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\QuestionDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\ResizableScrollArea.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\RightAlignmentColumnDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\TransactionDetailsDialog.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\TransactionsAmountDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\TransactionsHeaderView.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\TransactionsTimeDelegate.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\TransfersHeaderView.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletBlueButton.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletCancelButton.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletDescriptionLabel.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletGrayCheckBox.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletLinkLikeButton.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletNavigationButton.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletOkButton.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletTableView.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletTextLabel.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletTreeView.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Common\WalletWindowedItemModel.cpp">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\MainWindow\MainWindow.cpp">
+      <Filter>Source Files\Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\MainWindow\WalletStatusBar.cpp">
+      <Filter>Source Files\Gui\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Mining\MinerDelegate.cpp">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Mining\MiningFrame.cpp">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Mining\PoolHeaderView.cpp">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Mining\PoolTreeView.cpp">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\NoWallet\NoWalletFrame.cpp">
+      <Filter>Source Files\Gui\NoWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\ConnectionOptionsFrame.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\DonationAddressesModel.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\DonationOptionsFrame.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\OptimizationOptionsFrame.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\OptionsDialog.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Options\PrivacyFrame.cpp">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\OverviewFrame.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\OverviewHeaderFrame.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\OverviewHeaderGlassFrame.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\OverviewTransactionPoolModel.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\OverviewTransactionPoolTreeView.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Overview\RecentTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Send\SendFrame.cpp">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Send\SendGlassFrame.cpp">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Send\TransferFrame.cpp">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\DrawableTransfersModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\FilteredByHashTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\FilteredTransactionsModel.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\TransactionsDelegate.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\TransactionsFrame.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Gui\Transactions\TransactionTransfersRenderer.cpp">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\AddressBookModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\BlockchainModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\FusionTransactionsFilterModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\MinerModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\NodeStateModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\SortedAddressBookModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\SortedTransactionsModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\TransactionPoolModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\TransactionsModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\TransfersModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Models\WalletStateModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\AddressBookManager.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\BlogReader.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\CommandLineParser.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\LogFileWatcher.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\MiningManager.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\OptimizationManager.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\SignalHandler.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\WalletApplication.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Application\WalletSplashScreen.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Settings\Settings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resource Files">
@@ -30,15 +321,252 @@
     <Filter Include="Resource Files\Images">
       <UniqueIdentifier>{d61495d0-7d23-40fc-9256-2bf2ceac1fe3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Gui">
+      <UniqueIdentifier>{4048e4fe-d1a9-4758-8858-dc84970e9ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\MainWindow">
+      <UniqueIdentifier>{3e650b9e-35d5-4df2-95de-f667608b1c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\AddressBook">
+      <UniqueIdentifier>{6ed9a8ac-fde3-4c99-834b-40731cbdb367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\BlockchainExplorer">
+      <UniqueIdentifier>{4041f6b1-9247-4741-90c4-feedd0e3316b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Common">
+      <UniqueIdentifier>{73665665-ad6a-4d9d-ab61-027dfdf93f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Mining">
+      <UniqueIdentifier>{e1c04cb3-86ee-4686-a0ed-02d8b6e23448}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Transactions">
+      <UniqueIdentifier>{2e5ce5c3-2696-4e9d-99a9-2a0919cf609c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Overview">
+      <UniqueIdentifier>{da4a25ba-57bf-42ba-aabc-6d63c295573b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Send">
+      <UniqueIdentifier>{3ed9d695-534b-423b-b833-e6263b64fc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\Options">
+      <UniqueIdentifier>{cc15a411-8b67-4a88-a2d2-e36b9ac26c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gui\NoWallet">
+      <UniqueIdentifier>{3c5cf1d0-60a6-4468-bcfa-3e4335901be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{1db72cb3-e9ab-4cdb-bb3e-c422b0ab1dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{f7b83319-e6a7-4cd0-9098-a18a00b396f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{25a3ec3a-2b7c-40e9-9373-7acecb2b8384}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="worktipswallet.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="source\Gui\AddressBook\AddressBookDelegate.h">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\AddressBook\AddressBookFrame.h">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\AddressBook\DonationColumnDelegate.h">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\AddressBook\NewAddressDialog.h">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\BlockchainExplorer\BlockDetailsDialog.h">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\BlockchainExplorer\BlockExplorerFrame.h">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\BlockchainExplorer\FilteredBlockModel.h">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\BlockchainExplorer\TransactionsBlockModel.h">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\BlockchainExplorer\WindowedBlockModel.h">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\AboutDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\AddressBookDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\BlockchainInstaller.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\ChangePasswordDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\ClearableLineEdit.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\CopyColumnDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\CopyMagicLabel.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\ExitWidget.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\GlassFrame.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\KeyDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\LinkLikeColumnDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\MagicLabel.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\NewPasswordDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\NewsFrame.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\NewTransactionDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\P2pBindPortErrorDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\PoolTransactionDetailsDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\QuestionDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\ResizableScrollArea.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\RightAlignmentColumnDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\TransactionDetailsDialog.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\AddressBookModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\BlockchainModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\FusionTransactionsFilterModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\MinerModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\NodeStateModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\SortedAddressBookModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\SortedTransactionsModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\TransactionPoolModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\TransactionsModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\TransfersModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Models\WalletStateModel.h">
+      <Filter>Source Files\Models</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\AddressBookManager.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\BlogReader.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\CommandLineParser.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\LogFileWatcher.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\MiningManager.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\OptimizationManager.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\SignalHandler.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\WalletApplication.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\WalletSplashScreen.h">
+      <Filter>Source Files\Application</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="worktipswallet.ui">
       <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\AddressBook\AddressBookFrame.ui">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\AddressBook\NewAddressDialog.ui">
+      <Filter>Source Files\Gui\AddressBook</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\BlockchainExplorer\BlockDetailsDialog.ui">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\BlockchainExplorer\BlockExplorerFrame.ui">
+      <Filter>Source Files\Gui\BlockchainExplorer</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\AboutDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\AddressBookDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\ChangePasswordDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\ExitWidget.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\KeyDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\NewPasswordDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\NewsFrame.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\P2pBindPortErrorDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\PoolTransactionDetailsDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\QuestionDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Common\TransactionDetailsDialog.ui">
+      <Filter>Source Files\Gui\Common</Filter>
     </QtUic>
   </ItemGroup>
   <ItemGroup>
@@ -61,13 +589,201 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="source\Gui\Common\TransactionsAmountDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\TransactionsHeaderView.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\TransactionsTimeDelegate.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\TransfersHeaderView.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletBlueButton.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletCancelButton.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletDescriptionLabel.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletGrayCheckBox.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletLinkLikeButton.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletNavigationButton.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletOkButton.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletTableView.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletTextLabel.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletTreeView.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Common\WalletWindowedItemModel.h">
+      <Filter>Source Files\Gui\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\MainWindow\MainWindow.h">
+      <Filter>Source Files\Gui\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\MainWindow\WalletStatusBar.h">
+      <Filter>Source Files\Gui\MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Mining\MinerDelegate.h">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Mining\MiningFrame.h">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Mining\PoolHeaderView.h">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Mining\PoolTreeView.h">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\NoWallet\NoWalletFrame.h">
+      <Filter>Source Files\Gui\NoWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\ConnectionOptionsFrame.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\DonationAddressesModel.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\DonationOptionsFrame.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\IOptionsPage.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\OptimizationOptionsFrame.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\OptionsDialog.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Options\PrivacyFrame.h">
+      <Filter>Source Files\Gui\Options</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\OverviewFrame.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\OverviewHeaderFrame.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\OverviewHeaderGlassFrame.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolModel.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolTreeView.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Overview\RecentTransactionsModel.h">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Send\SendFrame.h">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Send\SendGlassFrame.h">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Send\TransferFrame.h">
+      <Filter>Source Files\Gui\Send</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\DrawableTransfersModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\FilteredByHashTransactionsModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\FilteredTransactionsModel.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\TransactionsDelegate.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\TransactionsFrame.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Gui\Transactions\TransactionTransfersRenderer.h">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\IWalletUiItem.h">
+      <Filter>Source Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Settings\Settings.h">
+      <Filter>Source Files\Settings</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="worktips-wallet.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="source\Gui\MainWindow\MainWindow.ui">
+      <Filter>Source Files\Gui\MainWindow</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Mining\MiningFrame.ui">
+      <Filter>Source Files\Gui\Mining</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\NoWallet\NoWalletFrame.ui">
+      <Filter>Source Files\Gui\NoWallet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Options\ConnectionOptionsFrame.ui">
+      <Filter>Source Files\Gui\Options</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Options\DonationOptionsFrame.ui">
+      <Filter>Source Files\Gui\Options</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Options\OptimizationOptionsFrame.ui">
+      <Filter>Source Files\Gui\Options</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Options\OptionsDialog.ui">
+      <Filter>Source Files\Gui\Options</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Options\PrivacyFrame.ui">
+      <Filter>Source Files\Gui\Options</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Overview\OverviewFrame.ui">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Overview\OverviewHeaderFrame.ui">
+      <Filter>Source Files\Gui\Overview</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Send\SendFrame.ui">
+      <Filter>Source Files\Gui\Send</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Send\TransferFrame.ui">
+      <Filter>Source Files\Gui\Send</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Transactions\TransactionsFrame.ui">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </CustomBuild>
+    <CustomBuild Include="source\Gui\Transactions\TransactionTransfersRenderer.ui">
+      <Filter>Source Files\Gui\Transactions</Filter>
+    </CustomBuild>
   </ItemGroup>
 </Project>
