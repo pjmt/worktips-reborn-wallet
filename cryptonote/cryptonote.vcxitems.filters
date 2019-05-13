@@ -1,0 +1,1623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{34fd7ed4-1c3b-4b72-b848-4b3ab988a58f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04f9b175-3774-44a2-bf7a-4e91b1c8f3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1341e4d9-8ed9-426b-9557-bae9dea24a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BlockchainExplorer">
+      <UniqueIdentifier>{2abfeac6-9c55-4154-be5e-097641317053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{bb2e6501-57f9-49f4-9b2b-8ded1d50188b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConnectivityTool">
+      <UniqueIdentifier>{ad0ded30-5ec2-42d1-947a-fd021f890b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crypto">
+      <UniqueIdentifier>{762def9e-3ab5-4ba7-8d8f-956366b5fb2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CryptoNoteCore">
+      <UniqueIdentifier>{46de394b-f786-4ecb-9b9b-884f49b96bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CryptoNoteProtocol">
+      <UniqueIdentifier>{c9bd304d-ff49-4284-8bb7-3060fb9739f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Daemon">
+      <UniqueIdentifier>{0afcc61a-6b61-43e5-92c2-751266987a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{332b5abd-9ca3-48df-90d5-26da4dcce451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InProcessNode">
+      <UniqueIdentifier>{35aea2f9-a39e-4014-bbba-4c96f44a23d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JsonRpcServer">
+      <UniqueIdentifier>{7b7263b6-1e8a-4882-8f63-c6d3c0c1c101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logging">
+      <UniqueIdentifier>{3198744d-b3e0-4e93-b244-d89ec4b89451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Miner">
+      <UniqueIdentifier>{103f79d7-ce22-40b5-b240-da8653bed9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mnemonics">
+      <UniqueIdentifier>{57c277be-1cec-43cb-a2b9-caf47ed61aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeRpcProxy">
+      <UniqueIdentifier>{a896f119-bdff-4c98-8cad-ab259c1f907e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\P2p">
+      <UniqueIdentifier>{4006bd26-c404-4926-a32e-981042f70bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymenGate">
+      <UniqueIdentifier>{f93160d9-7e9b-4d84-aaf0-1a5efe9195e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentGateService">
+      <UniqueIdentifier>{7cf955f2-1e1f-4040-aa59-5c42c7905c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{44f38440-3cf3-4745-8afd-8cea69886ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform\Windows">
+      <UniqueIdentifier>{315b9ccd-466f-47b4-8e18-f54042e5abf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform\Windows\System">
+      <UniqueIdentifier>{1d092639-b334-4dc9-8f57-e888e76c76ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PoolWallet">
+      <UniqueIdentifier>{d37ef86c-b86f-4be4-83cd-afa86e2f5427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rpc">
+      <UniqueIdentifier>{20d86e28-99e8-47fa-8693-f28a7a068cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialization">
+      <UniqueIdentifier>{4b3e8ddd-e6f2-42bb-96c4-c89a751cd7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleWallet">
+      <UniqueIdentifier>{f2a061d5-6452-4662-9bed-127d0be4f5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{b16a9b07-06f8-4d8c-984b-b23d510a8195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transfers">
+      <UniqueIdentifier>{73d641fd-3fa2-4ab0-9716-709685cebd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wallet">
+      <UniqueIdentifier>{6f16cdf7-ceb8-48a2-bb44-c97c2100aa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WalletLegacy">
+      <UniqueIdentifier>{65804262-febe-485f-8a47-ed157b69ef8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\BlockchainExplorerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\CryptoNote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\CryptoTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IBlockchainExplorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\INode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IObservable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IReadBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IStreamSerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ITransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ITransfersContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\ITransfersSynchronizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IWallet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IWalletLegacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)include\IWriteBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorer.h">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorerErrors.h">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ArrayRef.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ArrayView.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\Base58.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\BlockingQueue.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\CommandLine.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ConsoleHandler.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ConsoleTools.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\FileMappedVector.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\IInputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\int-util.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\IOutputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\JsonValue.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\Math.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\MemoryInputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ObserverManager.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\PathTools.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\pod-class.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ScopeExit.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\ShuffleGenerator.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\SignalHandler.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\static_assert.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StdInputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StdOutputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StreamTools.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StringBuffer.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StringInputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StringOutputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StringTools.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\StringView.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\Util.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\Varint.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Common\VectorOutputStream.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\aesb.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\blake256.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\chacha8.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\crypto.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\cryptonight.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\cryptonight-variants.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\crypto-ops.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\generic-ops.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\groestl.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\groestl_tables.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\hash.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\hash-ops.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\initializer.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\jh.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\keccak.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\oaes_config.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\oaes_lib.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\random.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\skein.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\crypto\skein_port.h">
+      <Filter>Source Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Account.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrorCondition.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrors.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainCache.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainMessages.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainReadBatch.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainUtils.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainWriteBatch.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockValidationErrors.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CachedBlock.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CachedTransaction.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Checkpoints.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Core.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CoreErrors.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CoreStatistics.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteBasic.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteBasicImpl.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteFormatUtils.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteSerialization.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteTools.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Currency.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseBlockchainCache.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseCacheData.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DataBaseConfig.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DataBaseErrors.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DBUtils.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Difficulty.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IBlockchainCache.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IBlockchainCacheFactory.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IBlockchainStorageObserver.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ICore.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ICoreDefinitions.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ICoreInformation.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ICoreObserver.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IKeyValueStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IMainChainStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IMinerHandler.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IntrusiveLinkedList.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITimeProvider.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITransactionPool.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITransactionPoolCleaner.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITransactionValidator.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITxPoolObserver.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IUpgradeDetector.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\IUpgradeManager.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MainChainStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MemoryBlockchainCacheFactory.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MemoryBlockchainStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MessageQueue.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Miner.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MinerConfig.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\OnceInInterval.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\RocksDBWrapper.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedBlockchainStorage.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedMap.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedVector.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionApi.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionApiExtra.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionExtra.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPool.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPoolCleaner.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPoolMessages.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionUtils.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionValidationErrors.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionValidatiorState.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\UpgradeDetector.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\UpgradeManager.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\VerificationContext.h">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\CryptoNoteProtocolDefinitions.h">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\CryptoNoteProtocolHandler.h">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\CryptoNoteProtocolHandlerCommon.h">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\ICryptoNoteProtocolObserver.h">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\ICryptoNoteProtocolQuery.h">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Daemon\DaemonCommandsHandler.h">
+      <Filter>Source Files\Daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParser.h">
+      <Filter>Source Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParserErrorCodes.h">
+      <Filter>Source Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HTTP\HttpRequest.h">
+      <Filter>Source Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HTTP\HttpResponse.h">
+      <Filter>Source Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\InProcessNode\InProcessNode.h">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\InProcessNode\InProcessNodeErrors.h">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\JsonRpcServer\JsonRpcServer.h">
+      <Filter>Source Files\JsonRpcServer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\CommonLogger.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\ConsoleLogger.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\FileLogger.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\ILogger.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\LoggerGroup.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\LoggerManager.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\LoggerMessage.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\LoggerRef.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Logging\StreamLogger.h">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Miner\BlockchainMonitor.h">
+      <Filter>Source Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Miner\Miner.h">
+      <Filter>Source Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Miner\MinerEvent.h">
+      <Filter>Source Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Miner\MinerManager.h">
+      <Filter>Source Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Miner\MiningConfig.h">
+      <Filter>Source Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\chinese_simplified.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\dutch.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\electrum-words.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\english.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\english_old.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\esperanto.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\french.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\german.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\italian.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\japanese.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\language_base.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\lojban.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\portuguese.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\russian.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\singleton.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Mnemonics\spanish.h">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\NodeRpcProxy\NodeErrors.h">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\NodeRpcProxy\NodeRpcProxy.h">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\ConnectionContext.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\IP2pNodeInternal.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\LevinProtocol.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\NetNode.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\NetNodeCommon.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\NetNodeConfig.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pConnectionProxy.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pContext.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pContextOwner.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pInterfaces.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pNetworks.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pNode.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pNodeConfig.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pProtocolDefinitions.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\P2pProtocolTypes.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\P2p\PeerListManager.h">
+      <Filter>Source Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGate\NodeFactory.h">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGate\PaymentServiceJsonRpcMessages.h">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGate\PaymentServiceJsonRpcServer.h">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGate\WalletService.h">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGate\WalletServiceErrorCategory.h">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGateService\ConfigurationManager.h">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGateService\PaymentGateService.h">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGateService\PaymentServiceConfiguration.h">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PaymentGateService\RpcNodeConfiguration.h">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Dispatcher.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\ErrorMessage.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Future.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Ipv4Resolver.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\MemoryMappedFile.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpConnection.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpConnector.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpListener.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Timer.h">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PoolWallet\PasswordContainer.h">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PoolWallet\PoolWallet.h">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\PoolWallet\TransferCommand.h">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\CoreRpcServerCommandsDefinitions.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\CoreRpcServerErrorCodes.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\HttpClient.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\HttpServer.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\JsonRpc.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\RpcServer.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Rpc\RpcServerConfig.h">
+      <Filter>Source Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\BinaryInputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\BinaryOutputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\BinarySerializationTools.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\BlockchainExplorerDataSerialization.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\ISerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\IStream.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\JsonInputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\JsonInputValueSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\JsonOutputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\KVBinaryCommon.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\KVBinaryInputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\KVBinaryOutputStreamSerializer.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\MemoryStream.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\SerializationOverloads.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Serialization\SerializationTools.h">
+      <Filter>Source Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Fusion.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\ParseArguments.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\PasswordContainer.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\SimpleWallet.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Tools.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Transfer.h">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\Context.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\ContextGroup.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\ContextGroupTimeout.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\Event.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\EventLock.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\InterruptedException.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\Ipv4Address.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\OperationTimeout.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\RemoteContext.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\RemoteEventLock.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\System\TcpStream.h">
+      <Filter>Source Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\BlockchainSynchronizer.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\CommonTypes.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\IBlockchainSynchronizer.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\IObservableImpl.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\SynchronizationState.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersConsumer.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersContainer.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersSubscription.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersSynchronizer.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Transfers\TypeHelpers.h">
+      <Filter>Source Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\IFusionManager.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\LegacyKeysImporter.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletAsyncContextCounter.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletErrors.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletGreen.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletIndices.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletRpcServer.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletRpcServerCommandsDefinitions.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletRpcServerErrorCodes.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletSerializationV1.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletSerializationV2.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletUtils.h">
+      <Filter>Source Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\KeysStorage.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletHelper.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacy.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacyEvent.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacySerialization.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacySerializer.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletRequest.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletSendTransactionContext.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletTransactionSender.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUnconfirmedTransactions.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUserTransactionsCache.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUtils.h">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\daemon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\miner.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\poolwallet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\simplewallet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\walletd.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="$(MSBuildThisFileDirectory)src\BinaryInfo\worktips.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorer.cpp">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorerErrors.cpp">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Base58.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\BlockingQueue.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\CommandLine.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\ConsoleHandler.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\ConsoleTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\FileMappedVector.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\IInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\IOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\JsonValue.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Math.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\MemoryInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\PathTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\ScopeExit.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\SignalHandler.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StdInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StdOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StreamTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StringInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StringOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StringTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StringView.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Util.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\VectorOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ConnectivityTool\ConnectivityTool.cpp">
+      <Filter>Source Files\ConnectivityTool</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\blake256.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\chacha8.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\crypto.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\crypto-ops.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\crypto-ops-data.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\hash-extra-blake.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\hash-extra-groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\hash-extra-jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\hash-extra-skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\keccak.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\oaes_lib.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\random.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\tree-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Account.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrorCondition.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainCache.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainMessages.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainReadBatch.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockchainWriteBatch.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\BlockValidationErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CachedBlock.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CachedTransaction.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Checkpoints.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Core.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CoreErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteBasic.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteBasicImpl.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteFormatUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteSerialization.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\CryptoNoteTools.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Currency.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseBlockchainCache.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DatabaseCacheData.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DataBaseConfig.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DataBaseErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\DBUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Difficulty.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\ITimeProvider.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MainChainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MemoryBlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Miner.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\MinerConfig.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\RocksDBWrapper.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedBlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedMap.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\SwappedVector.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Transaction.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionExtra.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPool.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPoolCleaner.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPoolMessages.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionPrefixImpl.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionValidationErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\TransactionValidatiorState.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\UpgradeDetector.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\UpgradeManager.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteProtocol\CryptoNoteProtocolHandler.cpp">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Daemon\Daemon.cpp">
+      <Filter>Source Files\Daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Daemon\DaemonCommandsHandler.cpp">
+      <Filter>Source Files\Daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParser.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParserErrorCodes.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpRequest.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpResponse.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\InProcessNode\InProcessNode.cpp">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\InProcessNode\InProcessNodeErrors.cpp">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\JsonRpcServer\JsonRpcServer.cpp">
+      <Filter>Source Files\JsonRpcServer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\CommonLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\ConsoleLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\FileLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\ILogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\LoggerGroup.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\LoggerManager.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\LoggerMessage.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\LoggerRef.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\StreamLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\BlockchainMonitor.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\main.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\Miner.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\MinerManager.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\MiningConfig.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Mnemonics\electrum-words.cpp">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\NodeRpcProxy\NodeErrors.cpp">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\NodeRpcProxy\NodeRpcProxy.cpp">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\IP2pNodeInternal.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\LevinProtocol.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\NetNode.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\NetNodeConfig.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pConnectionProxy.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pContext.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pContextOwner.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pInterfaces.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pNode.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\P2pNodeConfig.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\P2p\PeerListManager.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGate\NodeFactory.cpp">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGate\PaymentServiceJsonRpcMessages.cpp">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGate\PaymentServiceJsonRpcServer.cpp">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGate\WalletService.cpp">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGate\WalletServiceErrorCategory.cpp">
+      <Filter>Source Files\PaymenGate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGateService\ConfigurationManager.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGateService\main.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGateService\PaymentGateService.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGateService\PaymentServiceConfiguration.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PaymentGateService\RpcNodeConfiguration.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Dispatcher.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\ErrorMessage.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Ipv4Resolver.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\MemoryMappedFile.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpConnection.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpConnector.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpListener.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Timer.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\PasswordContainer.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\PoolWallet.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\TransferCommand.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\HttpClient.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\HttpServer.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\JsonRpc.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\RpcServer.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\RpcServerConfig.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\BinaryInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\BinaryOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\BlockchainExplorerDataSerialization.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\JsonInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\JsonInputValueSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\JsonOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\KVBinaryInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\KVBinaryOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\MemoryStream.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Serialization\SerializationOverloads.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Fusion.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\ParseArguments.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\PasswordContainer.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\SimpleWallet.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Tools.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Transfer.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\ContextGroup.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\ContextGroupTimeout.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\Event.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\EventLock.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\InterruptedException.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\Ipv4Address.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\RemoteEventLock.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\System\TcpStream.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\BlockchainSynchronizer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\SynchronizationState.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersConsumer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersContainer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersSubscription.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Transfers\TransfersSynchronizer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\LegacyKeysImporter.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletAsyncContextCounter.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletErrors.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletGreen.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletRpcServer.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletSerializationV1.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletSerializationV2.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\Wallet\WalletUtils.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\KeysStorage.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletHelper.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacy.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacySerialization.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletLegacySerializer.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletTransactionSender.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUnconfirmedTransactions.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUserTransactionsCache.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.inl">
+      <Filter>Source Files\crypto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

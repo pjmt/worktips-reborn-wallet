@@ -5,7 +5,13 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktips-wallet", "worktips-wallet.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptonote", "..\cryptonote\cryptonote.vcxitems", "{46D5A7D4-78F5-49EC-A74B-69F608096C22}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\cryptonote\cryptonote.vcxitems*{46d5a7d4-78f5-49ec-a74b-69f608096c22}*SharedItemsImports = 9
+		..\cryptonote\cryptonote.vcxitems*{b12702ad-abfb-343a-a199-8e24837244a3}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
