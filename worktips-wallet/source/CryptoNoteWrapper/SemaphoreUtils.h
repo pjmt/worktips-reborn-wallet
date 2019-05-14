@@ -17,26 +17,28 @@
 
 #pragma once
 
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+class QSemaphore;
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
-
+class SemaphoreLocker {
 public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+  explicit SemaphoreLocker(QSemaphore& _semaphore);
+  ~SemaphoreLocker();
+
+  void wait();
 
 private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
+  QSemaphore& m_semaphore;
+};
+
+class SemaphoreUnlocker {
+public:
+  explicit SemaphoreUnlocker(QSemaphore& _semaphore);
+  ~SemaphoreUnlocker();
+
+private:
+  QSemaphore& m_semaphore;
 };
 
 }

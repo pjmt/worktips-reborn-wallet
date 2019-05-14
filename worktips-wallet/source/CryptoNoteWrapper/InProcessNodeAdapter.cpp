@@ -15,28 +15,21 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-#pragma once
-
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+#include "InProcessNodeAdapter.h"
+#include "InProcessNodeWorker.h"
+#include "WalletGreenAdapter.h"
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+InProcessNodeAdapter::InProcessNodeAdapter(const CryptoNote::Currency& _currency, Logging::ILogger& _loggerManager, Logging::ILogger& _walletLogger,
+  QObject* _parent) : CommonNodeAdapter(_parent), m_currency(_currency), m_loggerManager(_loggerManager), m_walletLogger(_walletLogger) {
+}
 
-public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+InProcessNodeAdapter::~InProcessNodeAdapter() {
+}
 
-private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
-};
+INodeAdapter* InProcessNodeAdapter::createWorker() const {
+  return new InProcessNodeWorker(m_currency, m_loggerManager, m_walletLogger, nullptr);
+}
 
 }

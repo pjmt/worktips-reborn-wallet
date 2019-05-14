@@ -17,26 +17,36 @@
 
 #pragma once
 
-#include <QDialog>
+#include "CommonNodeAdapter.h"
 
-#include "version.h"
+namespace Logging {
+  class ILogger;
+}
 
-namespace Ui {
-class AboutDialog;
+namespace CryptoNote {
+  class Currency;
 }
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
+class ProxyRpcNodeAdapter : public CommonNodeAdapter {
   Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+  Q_DISABLE_COPY(ProxyRpcNodeAdapter)
 
 public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+  ProxyRpcNodeAdapter(const CryptoNote::Currency& _currency, Logging::ILogger& _loggerManager, Logging::ILogger& _walletLogger,
+    const QString& _nodeHost, quint16 _nodePort, QObject* _parent);
+  virtual ~ProxyRpcNodeAdapter();
+
+protected:
+  virtual INodeAdapter* createWorker() const override;
 
 private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
+  const CryptoNote::Currency& m_currency;
+  Logging::ILogger& m_loggerManager;
+  Logging::ILogger& m_walletLogger;
+  const QString m_nodeHost;
+  quint16 m_nodePort;
 };
 
 }

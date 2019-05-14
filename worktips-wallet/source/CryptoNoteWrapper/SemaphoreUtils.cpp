@@ -15,28 +15,32 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-#pragma once
+#include <QSemaphore>
 
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+#include "SemaphoreUtils.h"
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+SemaphoreLocker::SemaphoreLocker(QSemaphore& _semaphore) : m_semaphore(_semaphore) {
+  m_semaphore.acquire(1);
+}
 
-public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+SemaphoreLocker::~SemaphoreLocker() {
+  Q_ASSERT(m_semaphore.available() == 0);
+  m_semaphore.release(1);
+}
 
-private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
-};
+void SemaphoreLocker::wait() {
+  m_semaphore.acquire(1);
+}
+
+SemaphoreUnlocker::SemaphoreUnlocker(QSemaphore& _semaphore) : m_semaphore(_semaphore) {
+  Q_ASSERT(m_semaphore.available() == 0);
+}
+
+SemaphoreUnlocker::~SemaphoreUnlocker() {
+  Q_ASSERT(m_semaphore.available() == 0);
+  m_semaphore.release(1);
+}
 
 }

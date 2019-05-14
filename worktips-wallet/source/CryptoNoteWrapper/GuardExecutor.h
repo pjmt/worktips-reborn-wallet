@@ -17,26 +17,18 @@
 
 #pragma once
 
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+#include <functional>
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
-
+class GuardExecutor {
 public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+  GuardExecutor(const std::function<void()>& _initFunction, const std::function<void()>& _deinitFunction);
+
+  ~GuardExecutor();
 
 private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
+  const std::function<void()> m_deinitFunction;
 };
 
 }

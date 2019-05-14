@@ -296,6 +296,63 @@
     <ClCompile Include="source\Settings\Settings.cpp">
       <Filter>Source Files\Settings</Filter>
     </ClCompile>
+    <ClCompile Include="source\Style\DarkStyle.cpp">
+      <Filter>Source Files\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Style\LightStyle.cpp">
+      <Filter>Source Files\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Style\Style.cpp">
+      <Filter>Source Files\Style</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WalletLogger\WalletLogger.cpp">
+      <Filter>Source Files\WalletLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Miner\Miner.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Miner\StratumClient.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Miner\Worker.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\BlockChainExplorerAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\BlockChainExplorerWorker.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\CommonNodeAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\CryptoNoteAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\GuardExecutor.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\InProcessNodeAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\InProcessNodeWorker.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\ProxyRpcNodeAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\ProxyRpcNodeWorker.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\SemaphoreUtils.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\WalletGreenAdapter.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CryptoNoteWrapper\WalletGreenWorker.cpp">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Resource Files">
@@ -362,6 +419,18 @@
     </Filter>
     <Filter Include="Source Files\Settings">
       <UniqueIdentifier>{25a3ec3a-2b7c-40e9-9373-7acecb2b8384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Style">
+      <UniqueIdentifier>{2cf4f0a8-415d-4ae1-858f-619ac42f6e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WalletLogger">
+      <UniqueIdentifier>{e660d449-a157-4021-8387-dc7a0b7e81f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Miner">
+      <UniqueIdentifier>{b88975e1-d1f8-4e1a-a4e6-a96a10c37cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CryptoNoteWrapper">
+      <UniqueIdentifier>{74eea5dc-97b2-4644-9ce8-151a8237328d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -517,6 +586,48 @@
     </QtMoc>
     <QtMoc Include="source\Application\WalletSplashScreen.h">
       <Filter>Source Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\WalletLogger\WalletLogger.h">
+      <Filter>Source Files\WalletLogger</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Miner\Miner.h">
+      <Filter>Source Files\Miner</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Miner\StratumClient.h">
+      <Filter>Source Files\Miner</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Miner\Worker.h">
+      <Filter>Source Files\Miner</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\BlockChainExplorerAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\BlockChainExplorerWorker.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\CommonNodeAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\CryptoNoteAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\InProcessNodeAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\InProcessNodeWorker.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\ProxyRpcNodeAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\ProxyRpcNodeWorker.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\WalletGreenAdapter.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\CryptoNoteWrapper\WalletGreenWorker.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -780,6 +891,21 @@
     </ClInclude>
     <ClInclude Include="version.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Style\DarkStyle.h">
+      <Filter>Source Files\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Style\LightStyle.h">
+      <Filter>Source Files\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Style\Style.h">
+      <Filter>Source Files\Style</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CryptoNoteWrapper\GuardExecutor.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CryptoNoteWrapper\SemaphoreUtils.h">
+      <Filter>Source Files\CryptoNoteWrapper</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

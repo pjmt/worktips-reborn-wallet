@@ -17,26 +17,35 @@
 
 #pragma once
 
-#include <QDialog>
+#include <QObject>
 
-#include "version.h"
+#include "CommonNodeAdapter.h"
 
-namespace Ui {
-class AboutDialog;
+namespace Logging {
+  class ILogger;
+}
+
+namespace CryptoNote {
+  class Currency;
 }
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
+class InProcessNodeAdapter : public CommonNodeAdapter {
   Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+  Q_DISABLE_COPY(InProcessNodeAdapter)
 
 public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+  InProcessNodeAdapter(const CryptoNote::Currency& _currency, Logging::ILogger& _loggerManager, Logging::ILogger& _walletLogger, QObject* _parent);
+  virtual ~InProcessNodeAdapter();
+
+protected:
+  virtual INodeAdapter* createWorker() const override;
 
 private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
+  const CryptoNote::Currency& m_currency;
+  Logging::ILogger& m_loggerManager;
+  Logging::ILogger& m_walletLogger;
 };
 
 }

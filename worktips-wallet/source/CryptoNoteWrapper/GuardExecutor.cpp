@@ -15,28 +15,21 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-#pragma once
-
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+#include "GuardExecutor.h"
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+GuardExecutor::GuardExecutor(const std::function<void ()>& _initFunction, const std::function<void ()>& _deinitFunction) :
+m_deinitFunction(_deinitFunction) {
+  if (_initFunction != nullptr) {
+    _initFunction();
+  }
+}
 
-public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
-
-private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
-};
+GuardExecutor::~GuardExecutor() {
+  if (m_deinitFunction != nullptr) {
+    m_deinitFunction();
+  }
+}
 
 }

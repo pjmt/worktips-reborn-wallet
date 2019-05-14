@@ -15,28 +15,22 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-#pragma once
-
-#include <QDialog>
-
-#include "version.h"
-
-namespace Ui {
-class AboutDialog;
-}
+#include "ProxyRpcNodeAdapter.h"
+#include "ProxyRpcNodeWorker.h"
+#include "WalletGreenAdapter.h"
 
 namespace WalletGui {
 
-class AboutDialog : public QDialog {
-  Q_OBJECT
-  Q_DISABLE_COPY(AboutDialog)
+ProxyRpcNodeAdapter::ProxyRpcNodeAdapter(const CryptoNote::Currency& _currency, Logging::ILogger& _loggerManager, Logging::ILogger& _walletLogger,
+  const QString& _nodeHost, quint16 _nodePort, QObject* _parent) : CommonNodeAdapter(_parent), m_currency(_currency),
+  m_loggerManager(_loggerManager), m_walletLogger(_walletLogger), m_nodeHost(_nodeHost), m_nodePort(_nodePort) {
+}
 
-public:
-  explicit AboutDialog(QWidget* _parent);
-  ~AboutDialog();
+ProxyRpcNodeAdapter::~ProxyRpcNodeAdapter() {
+}
 
-private:
-  QScopedPointer<Ui::AboutDialog> m_ui;
-};
+INodeAdapter* ProxyRpcNodeAdapter::createWorker() const {
+  return new ProxyRpcNodeWorker(m_currency, m_loggerManager, m_walletLogger, m_nodeHost, m_nodePort, nullptr);
+}
 
 }
