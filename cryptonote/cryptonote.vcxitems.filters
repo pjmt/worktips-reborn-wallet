@@ -978,6 +978,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUtils.h">
       <Filter>Source Files\WalletLegacy</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CryptoNoteConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\daemon.rc">

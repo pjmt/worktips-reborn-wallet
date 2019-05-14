@@ -20,7 +20,7 @@
 #include "Common/StringTools.h"
 
 #include <System/EventLock.h>
-#include <System/Timer.h>
+//#include <System/Timer.h>
 #include <System/InterruptedException.h>
 
 #include "Rpc/CoreRpcServerCommandsDefinitions.h"

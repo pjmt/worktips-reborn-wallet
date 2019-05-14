@@ -14,6 +14,7 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CryptoNoteConfig.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)include\BlockchainExplorerData.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)include\CryptoNote.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)include\CryptoTypes.h" />

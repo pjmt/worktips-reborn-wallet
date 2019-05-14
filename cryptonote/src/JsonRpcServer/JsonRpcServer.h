@@ -19,7 +19,7 @@
 
 #include <system_error>
 
-#include <System/Dispatcher.h>
+//#include <System/Dispatcher.h>
 #include <System/Event.h>
 #include "Logging/ILogger.h"
 #include "Logging/LoggerRef.h"

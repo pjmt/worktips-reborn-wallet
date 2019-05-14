@@ -19,7 +19,7 @@
 
 #include <System/EventLock.h>
 #include <System/InterruptedException.h>
-#include <System/Timer.h>
+//#include <System/Timer.h>
 
 #include "Common/StringTools.h"
 #include "CryptoNoteConfig.h"
