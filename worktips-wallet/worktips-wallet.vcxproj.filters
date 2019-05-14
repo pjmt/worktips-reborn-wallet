@@ -432,6 +432,9 @@
     <Filter Include="Source Files\CryptoNoteWrapper">
       <UniqueIdentifier>{74eea5dc-97b2-4644-9ce8-151a8237328d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{58627c14-28f4-4dfc-9896-da44ed2b8c81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="worktipswallet.h">
@@ -560,33 +563,6 @@
     <QtMoc Include="source\Models\WalletStateModel.h">
       <Filter>Source Files\Models</Filter>
     </QtMoc>
-    <QtMoc Include="source\Application\AddressBookManager.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\BlogReader.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\CommandLineParser.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\LogFileWatcher.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\MiningManager.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\OptimizationManager.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\SignalHandler.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\WalletApplication.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
-    <QtMoc Include="source\Application\WalletSplashScreen.h">
-      <Filter>Source Files\Application</Filter>
-    </QtMoc>
     <QtMoc Include="source\WalletLogger\WalletLogger.h">
       <Filter>Source Files\WalletLogger</Filter>
     </QtMoc>
@@ -628,6 +604,33 @@
     </QtMoc>
     <QtMoc Include="source\CryptoNoteWrapper\WalletGreenWorker.h">
       <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\AddressBookManager.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\BlogReader.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\CommandLineParser.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\LogFileWatcher.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\MiningManager.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\OptimizationManager.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\SignalHandler.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\WalletApplication.h">
+      <Filter>Header Files\Application</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Application\WalletSplashScreen.h">
+      <Filter>Header Files\Application</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
@@ -841,9 +844,6 @@
     <ClInclude Include="source\Gui\Transactions\TransactionTransfersRenderer.h">
       <Filter>Source Files\Gui\Transactions</Filter>
     </ClInclude>
-    <ClInclude Include="source\Application\IWalletUiItem.h">
-      <Filter>Source Files\Application</Filter>
-    </ClInclude>
     <ClInclude Include="source\Settings\Settings.h">
       <Filter>Source Files\Settings</Filter>
     </ClInclude>
@@ -906,6 +906,9 @@
     </ClInclude>
     <ClInclude Include="source\CryptoNoteWrapper\SemaphoreUtils.h">
       <Filter>Source Files\CryptoNoteWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Application\IWalletUiItem.h">
+      <Filter>Header Files\Application</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
