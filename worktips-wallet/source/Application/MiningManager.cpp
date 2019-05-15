@@ -382,14 +382,13 @@ void MiningManager::updateActiveMinerIndex() {
 }
 
 void MiningManager::addNewMiner(const QString& _host, quint16 _port, quint32 _difficulty) {
-  IWalletAdapter* walletAdapter = m_cryptoNoteAdapter->getNodeAdapter()->getWalletAdapter();
-  IPoolMiner* miner = new Miner(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
-  //std::shared_ptr<IPoolMiner> miner = std::make_shared<WalletGui::Miner>(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
-  miner->addObserver(this);
-  m_miners.append(miner);
-  if (m_donationManager->isDonationMiningEnabled()) {
-    miner->setAlternateAccount(m_donationManager->getDonationMiningAddress(), m_donationManager->getDonationMiningAmount());
-  }
+  //IWalletAdapter* walletAdapter = m_cryptoNoteAdapter->getNodeAdapter()->getWalletAdapter();
+  //Miner* miner = new Miner(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
+  //miner->addObserver(this);
+  //m_miners.append(miner);
+  //if (m_donationManager->isDonationMiningEnabled()) {
+  //  miner->setAlternateAccount(m_donationManager->getDonationMiningAddress(), m_donationManager->getDonationMiningAmount());
+  //}
 }
 
 void MiningManager::loadMiners() {
