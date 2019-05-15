@@ -20,7 +20,7 @@
 #include "CryptoTypes.h"
 
 #include <System/ContextGroup.h>
-//#include <System/Dispatcher.h>
+#include <System/Dispatcher.h>
 #include <System/Event.h>
 
 #include "Logging/LoggerRef.h"

@@ -20,7 +20,7 @@
 #include <atomic>
 #include <thread>
 
-//#include <System/Dispatcher.h>
+#include <System/Dispatcher.h>
 #include <System/Event.h>
 #include <System/RemoteContext.h>
 

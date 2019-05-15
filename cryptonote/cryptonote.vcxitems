@@ -321,7 +321,6 @@
     <Image Include="$(MSBuildThisFileDirectory)src\BinaryInfo\worktips.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorerErrors.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Base58.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\BlockingQueue.cpp" />

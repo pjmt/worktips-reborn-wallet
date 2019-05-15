@@ -20,7 +20,7 @@
 #include "Common/StringTools.h"
 
 #include <System/InterruptedException.h>
-//#include <System/Timer.h>
+#include <System/Timer.h>
 
 namespace CryptoNote {
 

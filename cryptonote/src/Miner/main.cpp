@@ -23,7 +23,7 @@
 
 #include "MinerManager.h"
 
-//#include <System/Dispatcher.h>
+#include <System/Dispatcher.h>
 
 int main(int argc, char** argv) {
   try {

@@ -18,7 +18,7 @@
 #pragma once 
 #include <chrono>
 #include <System/ContextGroup.h>
-//#include <System/Timer.h>
+#include <System/Timer.h>
 
 namespace System {
 
