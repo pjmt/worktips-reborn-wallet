@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
+// Copyright (c) 2015-2017, The Bytecoin developers
 //
 // This file is part of Bytecoin.
 //
@@ -15,27 +15,23 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-#pragma once
+#include <QByteArray>
 
-#include <System/Dispatcher.h>
+class QJsonObject;
+class QJsonValue;
 
-namespace System {
+namespace QJsonRpc {
 
-class ContextGroup {
+class JsonRpcObject;
+
+class JsonRpcObjectFactory {
 public:
-  explicit ContextGroup(Dispatcher& dispatcher);
-  ContextGroup(const ContextGroup&) = delete;
-  ContextGroup(ContextGroup&& other);
-  ~ContextGroup();
-  ContextGroup& operator=(const ContextGroup&) = delete;
-  ContextGroup& operator=(ContextGroup&& other);
-  void interrupt();
-  void spawn(std::function<void()>&& procedure);
-  void wait();
+  static JsonRpcObject* createJsonRpcObject(const QJsonValue& _jsonValue, int& _jsonRpcErrorCode, QString& _jsonRpcErrorString,
+    QString& _jsonRpcErrorData);
 
 private:
-  Dispatcher* dispatcher;
-  NativeContextGroup contextGroup;
+  static JsonRpcObject* parseJsonRpcObject(const QJsonObject& _jsonObject, int& _jsonRpcErrorCode, QString& _jsonRpcErrorString,
+  QString& _jsonRpcErrorData);
 };
 
 }

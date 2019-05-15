@@ -53,7 +53,7 @@
     <ClCompile>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\include\boost-1_70;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -69,12 +69,14 @@
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
-      <IncludePath>$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\include\boost-1_70;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
+      <IncludePath>$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
       <Define>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_SVG_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
     </QtMoc>
     <QtUic>
       <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
       <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+      <ParallelProcess>false</ParallelProcess>
+      <DisplayDependencies>false</DisplayDependencies>
     </QtUic>
     <QtRcc>
       <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
@@ -113,6 +115,7 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\platform\Windows\ApplicationEventHandler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\Application\AddressBookManager.cpp" />
     <ClCompile Include="source\Application\BlogReader.cpp" />
@@ -225,6 +228,12 @@
     <ClCompile Include="source\Models\TransactionsModel.cpp" />
     <ClCompile Include="source\Models\TransfersModel.cpp" />
     <ClCompile Include="source\Models\WalletStateModel.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcNotification.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcObject.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcObjectFactory.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcRequest.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcResponse.cpp" />
+    <ClCompile Include="source\QJsonRpc\JsonRpcServer.cpp" />
     <ClCompile Include="source\Settings\Settings.cpp" />
     <ClCompile Include="source\Style\DarkStyle.cpp" />
     <ClCompile Include="source\Style\LightStyle.cpp" />
@@ -279,6 +288,10 @@
     <Image Include="Resources\Images\worktips_logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="..\platform\Windows\ApplicationEventHandler.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
     <ClInclude Include="CryptoNoteWalletConfig.h" />
     <ClInclude Include="include\IAddressBookManager.h" />
     <ClInclude Include="include\IApplicationEventHandler.h" />
@@ -308,6 +321,15 @@
     <ClInclude Include="source\CryptoNoteWrapper\SemaphoreUtils.h" />
     <QtMoc Include="source\CryptoNoteWrapper\WalletGreenAdapter.h" />
     <QtMoc Include="source\CryptoNoteWrapper\WalletGreenWorker.h" />
+    <ClInclude Include="source\QJsonRpc\JsonRpcNotification.h" />
+    <ClInclude Include="source\QJsonRpc\JsonRpcObject.h" />
+    <ClInclude Include="source\QJsonRpc\JsonRpcObjectFactory.h" />
+    <ClInclude Include="source\QJsonRpc\JsonRpcRequest.h" />
+    <ClInclude Include="source\QJsonRpc\JsonRpcResponse.h" />
+    <QtMoc Include="source\QJsonRpc\JsonRpcServer.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtNetwork;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtWidgets</IncludePath>
+    </QtMoc>
     <ClInclude Include="source\Settings\Settings.h" />
     <ClInclude Include="source\Style\DarkStyle.h" />
     <ClInclude Include="source\Style\LightStyle.h" />
@@ -424,7 +446,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="5.9.8" MocOptions="" />
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_x64="Qt5.9.8-msvc2017_64" MocOptions="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

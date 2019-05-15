@@ -1,4 +1,4 @@
-// Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
+// Copyright (c) 2015-2017, The Bytecoin developers
 //
 // This file is part of Bytecoin.
 //
@@ -17,25 +17,14 @@
 
 #pragma once
 
-#include <System/Dispatcher.h>
+#include <QString>
 
-namespace System {
+namespace WalletGui {
 
-class ContextGroup {
+class INotificationMonitorObserver {
 public:
-  explicit ContextGroup(Dispatcher& dispatcher);
-  ContextGroup(const ContextGroup&) = delete;
-  ContextGroup(ContextGroup&& other);
-  ~ContextGroup();
-  ContextGroup& operator=(const ContextGroup&) = delete;
-  ContextGroup& operator=(ContextGroup&& other);
-  void interrupt();
-  void spawn(std::function<void()>&& procedure);
-  void wait();
-
-private:
-  Dispatcher* dispatcher;
-  NativeContextGroup contextGroup;
+  virtual ~INotificationMonitorObserver() {}
+  virtual void notify(const QString& _notification) = 0;
 };
 
 }
