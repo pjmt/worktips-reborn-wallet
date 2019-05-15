@@ -244,7 +244,7 @@ void MiningManager::donationManagerOpened() {
 void MiningManager::donationManagerClosed() {
   for (IPoolMiner* miner : m_miners) {
     miner->removeObserver(this);
-    if (miner->getCurrentState() != Miner::STATE_STOPPED) {
+    if (miner->getCurrentState() != IPoolMiner::STATE_STOPPED) {
       miner->stop();
     }
 
@@ -383,7 +383,8 @@ void MiningManager::updateActiveMinerIndex() {
 
 void MiningManager::addNewMiner(const QString& _host, quint16 _port, quint32 _difficulty) {
   IWalletAdapter* walletAdapter = m_cryptoNoteAdapter->getNodeAdapter()->getWalletAdapter();
-  Miner* miner = new Miner(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
+  IPoolMiner* miner = new Miner(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
+  //std::shared_ptr<IPoolMiner> miner = std::make_shared<WalletGui::Miner>(_host, _port, _difficulty, walletAdapter->getAddress(0), "x", this);
   miner->addObserver(this);
   m_miners.append(miner);
   if (m_donationManager->isDonationMiningEnabled()) {

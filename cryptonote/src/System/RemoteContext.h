@@ -95,7 +95,7 @@ private:
   Dispatcher& dispatcher;
   mutable Event event;
   std::function<T()> procedure;
-  mutable System::Detail::Future<T> future;
+  //mutable System::Detail::Future<T> future;
   mutable bool interrupted;
 };
 

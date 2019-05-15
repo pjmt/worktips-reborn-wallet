@@ -766,6 +766,48 @@
     <QtUic Include="source\Gui\Common\TransactionDetailsDialog.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="source\Gui\MainWindow\MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Mining\MiningFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\NoWallet\NoWalletFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Options\ConnectionOptionsFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Options\DonationOptionsFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Options\OptimizationOptionsFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Options\OptionsDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Options\PrivacyFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Overview\OverviewFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Overview\OverviewHeaderFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Send\SendFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Send\TransferFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Transactions\TransactionsFrame.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="source\Gui\Transactions\TransactionTransfersRenderer.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="worktipswallet.qrc">
@@ -1014,49 +1056,5 @@
     <ResourceCompile Include="worktips-wallet.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="source\Gui\MainWindow\MainWindow.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Mining\MiningFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\NoWallet\NoWalletFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Options\ConnectionOptionsFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Options\DonationOptionsFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Options\OptimizationOptionsFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Options\OptionsDialog.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Options\PrivacyFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Overview\OverviewFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Overview\OverviewHeaderFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Send\SendFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Send\TransferFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Transactions\TransactionsFrame.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="source\Gui\Transactions\TransactionTransfersRenderer.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>
