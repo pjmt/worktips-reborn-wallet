@@ -1005,9 +1005,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorer.cpp">
-      <Filter>Source Files\BlockchainExplorer</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorerErrors.cpp">
       <Filter>Source Files\BlockchainExplorer</Filter>
     </ClCompile>

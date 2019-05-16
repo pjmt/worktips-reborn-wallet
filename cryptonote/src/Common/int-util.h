@@ -180,6 +180,7 @@ static inline void memcpy_swap64(void *dst, const void *src, size_t n) {
   }
 }
 
+#if !defined(WIN32)
 #if !defined(BYTE_ORDER) || !defined(LITTLE_ENDIAN) || !defined(BIG_ENDIAN)
 static_assert(false, "BYTE_ORDER is undefined. Perhaps, GNU extensions are not enabled");
 #endif
@@ -221,3 +222,21 @@ static_assert(false, "BYTE_ORDER is undefined. Perhaps, GNU extensions are not e
 #define memcpy_swap64be memcpy_ident64
 #define memcpy_swap64le memcpy_swap64
 #endif
+#else
+#define SWAP32LE IDENT32
+#define SWAP32BE SWAP32
+#define swap32le ident32
+#define swap32be swap32
+#define mem_inplace_swap32le mem_inplace_ident
+#define mem_inplace_swap32be mem_inplace_swap32
+#define memcpy_swap32le memcpy_ident32
+#define memcpy_swap32be memcpy_swap32
+#define SWAP64LE IDENT64
+#define SWAP64BE SWAP64
+#define swap64le ident64
+#define swap64be swap64
+#define mem_inplace_swap64le mem_inplace_ident
+#define mem_inplace_swap64be mem_inplace_swap64
+#define memcpy_swap64le memcpy_ident64
+#define memcpy_swap64be memcpy_swap64
+#endif // !WIN32
