@@ -311,16 +311,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)src\Wallet\WalletUtils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\daemon.rc" />
-    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\miner.rc" />
-    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\poolwallet.rc" />
-    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\simplewallet.rc" />
-    <ResourceCompile Include="$(MSBuildThisFileDirectory)src\BinaryInfo\walletd.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="$(MSBuildThisFileDirectory)src\BinaryInfo\worktips.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorerErrors.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Base58.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\BlockingQueue.cpp" />
@@ -345,7 +335,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\StringView.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\Util.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Common\VectorOutputStream.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\ConnectivityTool\ConnectivityTool.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\Account.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrorCondition.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\CryptoNoteCore\AddBlockErrors.cpp" />
@@ -415,7 +404,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\crypto\tree-hash.c" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\Daemon\Daemon.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Daemon\DaemonCommandsHandler.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParser.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\HTTP\HttpParserErrorCodes.cpp" />
@@ -434,7 +422,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\LoggerRef.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Logging\StreamLogger.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\BlockchainMonitor.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\main.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\Miner.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\MinerManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Miner\MiningConfig.cpp" />
@@ -471,7 +458,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\TcpListener.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Platform\Windows\System\Timer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\PasswordContainer.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\PoolWallet.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\PoolWallet\TransferCommand.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\HttpClient.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\Rpc\HttpServer.cpp" />
@@ -491,7 +477,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Fusion.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\ParseArguments.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\PasswordContainer.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\SimpleWallet.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Tools.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\SimpleWallet\Transfer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)src\System\ContextGroup.cpp" />

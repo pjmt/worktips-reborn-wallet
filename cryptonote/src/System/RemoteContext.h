@@ -18,6 +18,7 @@
 #pragma once
 
 #include <cassert>
+#include <future>
 #include <System/Dispatcher.h>
 #include <System/Event.h>
 #include <System/Future.h>
@@ -95,7 +96,7 @@ private:
   Dispatcher& dispatcher;
   mutable Event event;
   std::function<T()> procedure;
-  //mutable System::Detail::Future<T> future;
+  mutable System::Detail::Future<T> future;
   mutable bool interrupted;
 };
 
