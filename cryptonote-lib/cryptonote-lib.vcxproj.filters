@@ -1,0 +1,1691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BlockchainExplorer">
+      <UniqueIdentifier>{78c160ca-0152-4470-aab4-fd5803abfeab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BlockchainExplorer">
+      <UniqueIdentifier>{1e2cac38-8fda-45de-878e-ee5c7116d5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{3f4a3439-68c5-424f-aac1-1e89f12a474c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{dfde7d23-28b7-4d13-a2fd-0866d9342bf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ConnectivityTool">
+      <UniqueIdentifier>{ed72dcbb-0aab-4f1e-8f1d-544adcd788f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{a671a2ca-a059-4641-9bde-aee8e01c4e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crypto">
+      <UniqueIdentifier>{ddad0cdb-d23d-430f-9810-22131a4127db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CryptoNoteCore">
+      <UniqueIdentifier>{39b846b4-27f6-43c8-aebc-e84af0d978dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CryptoNoteCore">
+      <UniqueIdentifier>{6d0cec20-b929-4734-9719-c481de08e290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CryptoNoteProtocol">
+      <UniqueIdentifier>{7c63883b-c4ee-4b54-a502-b2c14370c554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CryptoNoteProtocol">
+      <UniqueIdentifier>{2d460a3d-26d3-455f-b34a-82fff8442582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Daemon">
+      <UniqueIdentifier>{a945e5cb-10e1-4bed-9d16-79597c1bf04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Daemon">
+      <UniqueIdentifier>{dd6bd268-10e9-4dd7-8aa3-e71e1ca7a4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP">
+      <UniqueIdentifier>{bc9bfdab-abe0-4c31-a7f4-f0f30ee5894b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{67d38296-350a-4056-883c-d165e851e294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InProcessNode">
+      <UniqueIdentifier>{a45f8eb4-c65f-43ba-b726-e1b87e160543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InProcessNode">
+      <UniqueIdentifier>{28ed1810-4e5d-4521-860b-c2ac1e037874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JsonRpcServer">
+      <UniqueIdentifier>{72686091-0bae-418e-9f7a-aa8a8f842fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JsonRpcServer">
+      <UniqueIdentifier>{f7fb5da8-f6cb-4404-b667-d86f7c732528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logging">
+      <UniqueIdentifier>{b60eb31a-3c0b-41d1-85ec-b9687a7114e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logging">
+      <UniqueIdentifier>{59b0e979-af97-4b3b-8331-ab12296e3282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Miner">
+      <UniqueIdentifier>{43795b25-b338-4938-b907-4d77b2d411c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Miner">
+      <UniqueIdentifier>{e3498c3b-46cf-4ca3-a889-e3889c72c20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mnemonics">
+      <UniqueIdentifier>{8cd015a5-0c9a-4c4f-a34a-a852c3a3f290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mnemonics">
+      <UniqueIdentifier>{77064dc1-5d75-448d-bd45-c7d44dea6366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NodeRpcProxy">
+      <UniqueIdentifier>{d657c2c8-e56b-41b6-ad03-7a04b1d35a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NodeRpcProxy">
+      <UniqueIdentifier>{83e7e87c-e307-4418-91f1-65f234678a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\P2p">
+      <UniqueIdentifier>{9e651b2b-0d1d-44c9-9c87-0061de60f497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\P2p">
+      <UniqueIdentifier>{1bb06564-564f-4fea-b0ef-04153b1f8d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaymentGate">
+      <UniqueIdentifier>{64359709-145b-415e-9eee-49f2a9189fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PaymentGateService">
+      <UniqueIdentifier>{ced643d7-433c-4fe7-8ee3-a9c53d2f49b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentGate">
+      <UniqueIdentifier>{2037f589-f06a-4800-9034-825bfc61ef8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PaymentGateService">
+      <UniqueIdentifier>{e98adb00-4e03-4c10-b82d-cfe2d527d5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform">
+      <UniqueIdentifier>{394b3dc2-e02c-4bf2-a6fe-bbfea58b312c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform\Windows">
+      <UniqueIdentifier>{b7c83e89-8e11-4cbb-a01d-7cc23486c7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform\Windows\System">
+      <UniqueIdentifier>{88c4a399-4b58-438a-9420-d91c1919aafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{11d1f441-74d1-4773-a221-f2e955c1a86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform\Windows">
+      <UniqueIdentifier>{5281c9aa-14a7-462e-9e19-bf2ac1ad1678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform\Windows\System">
+      <UniqueIdentifier>{cf4e43dc-5ab2-47d9-839e-25a849cc63cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PoolWallet">
+      <UniqueIdentifier>{ae3f7bda-73a2-402a-8bcf-7a5e05dc4307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PoolWallet">
+      <UniqueIdentifier>{9aa37ba3-f7bd-4cd6-914c-26067df7d67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rpc">
+      <UniqueIdentifier>{7967de44-897c-4f4b-8d75-42a7cd32d40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rpc">
+      <UniqueIdentifier>{15e2ddfd-0742-4004-8641-8cb5814a7d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Serialization">
+      <UniqueIdentifier>{eb0e0bb2-5630-41fc-8f88-ba300175117f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Serialization">
+      <UniqueIdentifier>{4ce5a86b-a228-4006-a72c-27d2bc2d361e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimpleWallet">
+      <UniqueIdentifier>{4204f8e4-4ece-44c0-9c04-ee100feba8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimpleWallet">
+      <UniqueIdentifier>{0244c623-b2c0-4229-920f-c0192134dfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{6a384583-9467-4f0a-a1b7-d39eaa9a72b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{e8ef54e1-7ae5-4a07-ae17-42a3da16dee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transfers">
+      <UniqueIdentifier>{abea0f94-173c-4e9e-9a7e-52bafe59fdb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transfers">
+      <UniqueIdentifier>{ac9b6f3c-12d6-493a-9842-f43dbf5b37c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Wallet">
+      <UniqueIdentifier>{b9389067-50f5-427f-bbaf-a291b2675db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WalletLegacy">
+      <UniqueIdentifier>{4adffb12-5f86-4a3c-8bdb-63b9c9f4bb00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Wallet">
+      <UniqueIdentifier>{a19cb610-0c5a-4170-8e4c-f53a28a6ae1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WalletLegacy">
+      <UniqueIdentifier>{963098e2-3084-479e-a750-90302d7dd15a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BlockchainExplorer\BlockchainExplorer.cpp">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockchainExplorer\BlockchainExplorerErrors.cpp">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Base58.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\BlockingQueue.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\CommandLine.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ConsoleHandler.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ConsoleTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\FileMappedVector.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\IInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\IOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\JsonValue.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Math.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\MemoryInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\PathTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\ScopeExit.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\SignalHandler.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StdInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StdOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StreamTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StringInputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StringOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StringTools.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\StringView.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\Util.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Common\VectorOutputStream.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConnectivityTool\ConnectivityTool.cpp">
+      <Filter>Source Files\ConnectivityTool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\blake256.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\chacha8.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\crypto-ops.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\crypto-ops-data.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash-extra-blake.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash-extra-groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash-extra-jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\hash-extra-skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\keccak.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\oaes_lib.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\random.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\slow-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\tree-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\slow-hash.cpp">
+      <Filter>Header Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\crypto.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Miner.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\MinerConfig.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\RocksDBWrapper.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\SwappedBlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\SwappedMap.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\SwappedVector.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Transaction.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionExtra.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionPool.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionPoolCleaner.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionPoolMessages.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionPrefixImpl.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionValidationErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\TransactionValidatiorState.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\UpgradeDetector.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\UpgradeManager.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Account.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\AddBlockErrorCondition.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\AddBlockErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainCache.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainMessages.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainReadBatch.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockchainWriteBatch.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\BlockValidationErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CachedBlock.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CachedTransaction.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Checkpoints.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Core.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CoreErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteBasic.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteBasicImpl.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteFormatUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteSerialization.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteTools.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Currency.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DatabaseBlockchainCache.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DatabaseCacheData.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DataBaseConfig.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DataBaseErrors.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\DBUtils.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\Difficulty.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\ITimeProvider.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteCore\MainChainStorage.cpp">
+      <Filter>Source Files\CryptoNoteCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.cpp">
+      <Filter>Source Files\CryptoNoteProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Daemon\Daemon.cpp">
+      <Filter>Source Files\Daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Daemon\DaemonCommandsHandler.cpp">
+      <Filter>Source Files\Daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTTP\HttpParser.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTTP\HttpParserErrorCodes.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTTP\HttpRequest.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HTTP\HttpResponse.cpp">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InProcessNode\InProcessNode.cpp">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InProcessNode\InProcessNodeErrors.cpp">
+      <Filter>Source Files\InProcessNode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\JsonRpcServer\JsonRpcServer.cpp">
+      <Filter>Source Files\JsonRpcServer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\CommonLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\ConsoleLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\FileLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\ILogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\LoggerGroup.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\LoggerManager.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\LoggerMessage.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\LoggerRef.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\StreamLogger.cpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Miner\BlockchainMonitor.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Miner\main.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Miner\Miner.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Miner\MinerManager.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Miner\MiningConfig.cpp">
+      <Filter>Source Files\Miner</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mnemonics\electrum-words.cpp">
+      <Filter>Source Files\Mnemonics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeRpcProxy\NodeErrors.cpp">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NodeRpcProxy\NodeRpcProxy.cpp">
+      <Filter>Source Files\NodeRpcProxy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\IP2pNodeInternal.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\LevinProtocol.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\NetNode.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\NetNodeConfig.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pConnectionProxy.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pContext.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pContextOwner.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pInterfaces.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pNode.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\P2pNodeConfig.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\P2p\PeerListManager.cpp">
+      <Filter>Source Files\P2p</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGate\NodeFactory.cpp">
+      <Filter>Source Files\PaymentGate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGate\PaymentServiceJsonRpcMessages.cpp">
+      <Filter>Source Files\PaymentGate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGate\PaymentServiceJsonRpcServer.cpp">
+      <Filter>Source Files\PaymentGate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGate\WalletService.cpp">
+      <Filter>Source Files\PaymentGate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGate\WalletServiceErrorCategory.cpp">
+      <Filter>Source Files\PaymentGate</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGateService\ConfigurationManager.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGateService\main.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGateService\PaymentGateService.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGateService\PaymentServiceConfiguration.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PaymentGateService\RpcNodeConfiguration.cpp">
+      <Filter>Source Files\PaymentGateService</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\Dispatcher.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\ErrorMessage.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\Ipv4Resolver.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\MemoryMappedFile.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\TcpConnection.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\TcpConnector.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\TcpListener.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\System\Timer.cpp">
+      <Filter>Source Files\Platform\Windows\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PoolWallet\PasswordContainer.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PoolWallet\PoolWallet.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PoolWallet\TransferCommand.cpp">
+      <Filter>Source Files\PoolWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rpc\HttpClient.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rpc\HttpServer.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rpc\JsonRpc.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rpc\RpcServer.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rpc\RpcServerConfig.cpp">
+      <Filter>Source Files\Rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\BinaryInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\BinaryOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\BlockchainExplorerDataSerialization.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\JsonInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\JsonInputValueSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\JsonOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\KVBinaryInputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\KVBinaryOutputStreamSerializer.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\MemoryStream.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Serialization\SerializationOverloads.cpp">
+      <Filter>Source Files\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\Fusion.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\ParseArguments.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\PasswordContainer.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\SimpleWallet.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\Tools.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimpleWallet\Transfer.cpp">
+      <Filter>Source Files\SimpleWallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\ContextGroup.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\ContextGroupTimeout.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Event.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\EventLock.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\InterruptedException.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\Ipv4Address.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\RemoteEventLock.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\System\TcpStream.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\BlockchainSynchronizer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\SynchronizationState.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\TransfersConsumer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\TransfersContainer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\TransfersSubscription.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transfers\TransfersSynchronizer.cpp">
+      <Filter>Source Files\Transfers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\KeysStorage.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletHelper.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletLegacy.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletLegacySerialization.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletLegacySerializer.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletTransactionSender.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletUnconfirmedTransactions.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WalletLegacy\WalletUserTransactionsCache.cpp">
+      <Filter>Source Files\WalletLegacy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\LegacyKeysImporter.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletAsyncContextCounter.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletErrors.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletGreen.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletRpcServer.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletSerializationV1.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletSerializationV2.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wallet\WalletUtils.cpp">
+      <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BlockchainExplorer\BlockchainExplorer.h">
+      <Filter>Header Files\BlockchainExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockchainExplorer\BlockchainExplorerErrors.h">
+      <Filter>Header Files\BlockchainExplorer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\PathTools.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\pod-class.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ScopeExit.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ShuffleGenerator.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\SignalHandler.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\static_assert.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StdInputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StdOutputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StreamTools.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StringBuffer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StringInputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StringOutputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StringTools.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\StringView.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Util.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Varint.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\VectorOutputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ArrayRef.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ArrayView.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Base58.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\BlockingQueue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\CommandLine.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ConsoleHandler.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ConsoleTools.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\FileMappedVector.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\IInputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\int-util.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\IOutputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\JsonValue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\Math.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\MemoryInputStream.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common\ObserverManager.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlockchainExplorerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptoNote.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CryptoTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IBlockchainExplorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\INode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IObservable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IReadBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IStreamSerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITransaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITransfersContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITransfersSynchronizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IWallet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IWalletLegacy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IWriteBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\aesb.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\blake256.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\chacha8.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\crypto.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\cryptonight.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\cryptonight-variants.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\crypto-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\generic-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\groestl.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\groestl_tables.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\hash.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\hash-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\initializer.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\jh.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\keccak.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\oaes_config.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\oaes_lib.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\random.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\skein.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crypto\skein_port.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IntrusiveLinkedList.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ITimeProvider.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ITransactionPool.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ITransactionPoolCleaner.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ITransactionValidator.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ITxPoolObserver.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IUpgradeDetector.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IUpgradeManager.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\MainChainStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\MemoryBlockchainCacheFactory.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\MemoryBlockchainStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\MessageQueue.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Miner.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\MinerConfig.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\OnceInInterval.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\RocksDBWrapper.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\SwappedBlockchainStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\SwappedMap.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\SwappedVector.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionApi.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionApiExtra.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionExtra.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionPool.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionPoolCleaner.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionPoolMessages.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionUtils.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionValidationErrors.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\TransactionValidatiorState.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\UpgradeDetector.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\UpgradeManager.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\VerificationContext.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Account.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\AddBlockErrorCondition.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\AddBlockErrors.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainCache.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainMessages.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainReadBatch.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainUtils.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockchainWriteBatch.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\BlockValidationErrors.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CachedBlock.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CachedTransaction.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Checkpoints.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Core.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CoreErrors.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CoreStatistics.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteBasic.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteBasicImpl.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteFormatUtils.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteSerialization.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteTools.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Currency.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DatabaseBlockchainCache.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DatabaseCacheData.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DataBaseConfig.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DataBaseErrors.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\DBUtils.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\Difficulty.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainCache.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainCacheFactory.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainStorageObserver.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ICore.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ICoreDefinitions.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ICoreInformation.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\ICoreObserver.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IKeyValueStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IMainChainStorage.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteCore\IMinerHandler.h">
+      <Filter>Header Files\CryptoNoteCore</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolDefinitions.h">
+      <Filter>Header Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.h">
+      <Filter>Header Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandlerCommon.h">
+      <Filter>Header Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteProtocol\ICryptoNoteProtocolObserver.h">
+      <Filter>Header Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CryptoNoteProtocol\ICryptoNoteProtocolQuery.h">
+      <Filter>Header Files\CryptoNoteProtocol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Daemon\DaemonCommandsHandler.h">
+      <Filter>Header Files\Daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HTTP\HttpParser.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HTTP\HttpParserErrorCodes.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HTTP\HttpRequest.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HTTP\HttpResponse.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InProcessNode\InProcessNode.h">
+      <Filter>Header Files\InProcessNode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\InProcessNode\InProcessNodeErrors.h">
+      <Filter>Header Files\InProcessNode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JsonRpcServer\JsonRpcServer.h">
+      <Filter>Header Files\JsonRpcServer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\CommonLogger.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\ConsoleLogger.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\FileLogger.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\ILogger.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\LoggerGroup.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\LoggerManager.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\LoggerMessage.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\LoggerRef.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\StreamLogger.h">
+      <Filter>Header Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Miner\BlockchainMonitor.h">
+      <Filter>Header Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Miner\Miner.h">
+      <Filter>Header Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Miner\MinerEvent.h">
+      <Filter>Header Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Miner\MinerManager.h">
+      <Filter>Header Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Miner\MiningConfig.h">
+      <Filter>Header Files\Miner</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\chinese_simplified.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\dutch.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\electrum-words.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\english.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\english_old.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\esperanto.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\french.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\german.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\italian.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\japanese.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\language_base.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\lojban.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\portuguese.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\russian.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\singleton.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mnemonics\spanish.h">
+      <Filter>Header Files\Mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NodeRpcProxy\NodeErrors.h">
+      <Filter>Header Files\NodeRpcProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NodeRpcProxy\NodeRpcProxy.h">
+      <Filter>Header Files\NodeRpcProxy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pContext.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pContextOwner.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pInterfaces.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pNetworks.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pNode.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pNodeConfig.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pProtocolDefinitions.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pProtocolTypes.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\PeerListManager.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\ConnectionContext.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\IP2pNodeInternal.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\LevinProtocol.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\NetNode.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\NetNodeCommon.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\NetNodeConfig.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\P2p\P2pConnectionProxy.h">
+      <Filter>Header Files\P2p</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGate\NodeFactory.h">
+      <Filter>Header Files\PaymentGate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGate\PaymentServiceJsonRpcMessages.h">
+      <Filter>Header Files\PaymentGate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGate\PaymentServiceJsonRpcServer.h">
+      <Filter>Header Files\PaymentGate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGate\WalletService.h">
+      <Filter>Header Files\PaymentGate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGate\WalletServiceErrorCategory.h">
+      <Filter>Header Files\PaymentGate</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGateService\ConfigurationManager.h">
+      <Filter>Header Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGateService\PaymentGateService.h">
+      <Filter>Header Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGateService\PaymentServiceConfiguration.h">
+      <Filter>Header Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PaymentGateService\RpcNodeConfiguration.h">
+      <Filter>Header Files\PaymentGateService</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\Dispatcher.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\ErrorMessage.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\Future.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\Ipv4Resolver.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\MemoryMappedFile.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\TcpConnection.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\TcpConnector.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\TcpListener.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\System\Timer.h">
+      <Filter>Header Files\Platform\Windows\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PoolWallet\PasswordContainer.h">
+      <Filter>Header Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PoolWallet\PoolWallet.h">
+      <Filter>Header Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PoolWallet\TransferCommand.h">
+      <Filter>Header Files\PoolWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\CoreRpcServerCommandsDefinitions.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\CoreRpcServerErrorCodes.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\HttpClient.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\HttpServer.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\JsonRpc.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\RpcServer.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rpc\RpcServerConfig.h">
+      <Filter>Header Files\Rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\BinaryInputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\BinaryOutputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\BinarySerializationTools.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\BlockchainExplorerDataSerialization.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\ISerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\IStream.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\JsonInputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\JsonInputValueSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\JsonOutputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\KVBinaryCommon.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\KVBinaryInputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\KVBinaryOutputStreamSerializer.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\MemoryStream.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\SerializationOverloads.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Serialization\SerializationTools.h">
+      <Filter>Header Files\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\Fusion.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\ParseArguments.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\PasswordContainer.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\SimpleWallet.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\Tools.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleWallet\Transfer.h">
+      <Filter>Header Files\SimpleWallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Context.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\ContextGroup.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\ContextGroupTimeout.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Event.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\EventLock.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\InterruptedException.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\Ipv4Address.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\OperationTimeout.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\RemoteContext.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\RemoteEventLock.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\System\TcpStream.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\BlockchainSynchronizer.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\CommonTypes.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\IBlockchainSynchronizer.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\IObservableImpl.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\SynchronizationState.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\TransfersConsumer.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\TransfersContainer.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\TransfersSubscription.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\TransfersSynchronizer.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Transfers\TypeHelpers.h">
+      <Filter>Header Files\Transfers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\IFusionManager.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\LegacyKeysImporter.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletAsyncContextCounter.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletErrors.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletGreen.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletIndices.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletRpcServer.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletRpcServerCommandsDefinitions.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletRpcServerErrorCodes.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletSerializationV1.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletSerializationV2.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wallet\WalletUtils.h">
+      <Filter>Header Files\Wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\KeysStorage.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletHelper.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletLegacy.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletLegacyEvent.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletLegacySerialization.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletLegacySerializer.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletRequest.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletSendTransactionContext.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletTransactionSender.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletUnconfirmedTransactions.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletUserTransactionsCache.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WalletLegacy\WalletUtils.h">
+      <Filter>Header Files\WalletLegacy</Filter>
+    </ClInclude>
+    <ClInclude Include="CryptoNoteConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\crypto\slow-hash.inl">
+      <Filter>Header Files\crypto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

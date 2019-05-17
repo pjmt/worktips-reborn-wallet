@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BlockchainExplorer\BlockchainExplorer.cpp" />
+    <ClCompile Include="src\BlockchainExplorer\BlockchainExplorerErrors.cpp" />
+    <ClCompile Include="src\Common\Base58.cpp" />
+    <ClCompile Include="src\Common\BlockingQueue.cpp" />
+    <ClCompile Include="src\Common\CommandLine.cpp" />
+    <ClCompile Include="src\Common\ConsoleHandler.cpp" />
+    <ClCompile Include="src\Common\ConsoleTools.cpp" />
+    <ClCompile Include="src\Common\FileMappedVector.cpp" />
+    <ClCompile Include="src\Common\IInputStream.cpp" />
+    <ClCompile Include="src\Common\IOutputStream.cpp" />
+    <ClCompile Include="src\Common\JsonValue.cpp" />
+    <ClCompile Include="src\Common\Math.cpp" />
+    <ClCompile Include="src\Common\MemoryInputStream.cpp" />
+    <ClCompile Include="src\Common\PathTools.cpp" />
+    <ClCompile Include="src\Common\ScopeExit.cpp" />
+    <ClCompile Include="src\Common\SignalHandler.cpp" />
+    <ClCompile Include="src\Common\StdInputStream.cpp" />
+    <ClCompile Include="src\Common\StdOutputStream.cpp" />
+    <ClCompile Include="src\Common\StreamTools.cpp" />
+    <ClCompile Include="src\Common\StringInputStream.cpp" />
+    <ClCompile Include="src\Common\StringOutputStream.cpp" />
+    <ClCompile Include="src\Common\StringTools.cpp" />
+    <ClCompile Include="src\Common\StringView.cpp" />
+    <ClCompile Include="src\Common\Util.cpp" />
+    <ClCompile Include="src\Common\VectorOutputStream.cpp" />
+    <ClCompile Include="src\ConnectivityTool\ConnectivityTool.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Account.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\AddBlockErrorCondition.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\AddBlockErrors.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainCache.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainMessages.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainReadBatch.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainStorage.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainUtils.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockchainWriteBatch.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\BlockValidationErrors.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CachedBlock.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CachedTransaction.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Checkpoints.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Core.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CoreErrors.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteBasic.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteBasicImpl.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteFormatUtils.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteSerialization.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\CryptoNoteTools.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Currency.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DatabaseBlockchainCache.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DatabaseCacheData.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DataBaseConfig.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DataBaseErrors.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\DBUtils.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Difficulty.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\ITimeProvider.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\MainChainStorage.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainStorage.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Miner.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\MinerConfig.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\RocksDBWrapper.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\SwappedBlockchainStorage.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\SwappedMap.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\SwappedVector.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\Transaction.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionExtra.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionPool.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionPoolCleaner.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionPoolMessages.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionPrefixImpl.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionUtils.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionValidationErrors.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\TransactionValidatiorState.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\UpgradeDetector.cpp" />
+    <ClCompile Include="src\CryptoNoteCore\UpgradeManager.cpp" />
+    <ClCompile Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.cpp" />
+    <ClCompile Include="src\crypto\blake256.c" />
+    <ClCompile Include="src\crypto\chacha8.c" />
+    <ClCompile Include="src\crypto\crypto-ops-data.c" />
+    <ClCompile Include="src\crypto\crypto-ops.c" />
+    <ClCompile Include="src\crypto\crypto.cpp" />
+    <ClCompile Include="src\crypto\groestl.c" />
+    <ClCompile Include="src\crypto\hash-extra-blake.c" />
+    <ClCompile Include="src\crypto\hash-extra-groestl.c" />
+    <ClCompile Include="src\crypto\hash-extra-jh.c" />
+    <ClCompile Include="src\crypto\hash-extra-skein.c" />
+    <ClCompile Include="src\crypto\hash.c" />
+    <ClCompile Include="src\crypto\jh.c" />
+    <ClCompile Include="src\crypto\keccak.c" />
+    <ClCompile Include="src\crypto\oaes_lib.c" />
+    <ClCompile Include="src\crypto\random.c" />
+    <ClCompile Include="src\crypto\skein.c" />
+    <ClCompile Include="src\crypto\slow-hash.c" />
+    <ClCompile Include="src\crypto\slow-hash.cpp" />
+    <ClCompile Include="src\crypto\tree-hash.c" />
+    <ClCompile Include="src\Daemon\Daemon.cpp" />
+    <ClCompile Include="src\Daemon\DaemonCommandsHandler.cpp" />
+    <ClCompile Include="src\HTTP\HttpParser.cpp" />
+    <ClCompile Include="src\HTTP\HttpParserErrorCodes.cpp" />
+    <ClCompile Include="src\HTTP\HttpRequest.cpp" />
+    <ClCompile Include="src\HTTP\HttpResponse.cpp" />
+    <ClCompile Include="src\InProcessNode\InProcessNode.cpp" />
+    <ClCompile Include="src\InProcessNode\InProcessNodeErrors.cpp" />
+    <ClCompile Include="src\JsonRpcServer\JsonRpcServer.cpp" />
+    <ClCompile Include="src\Logging\CommonLogger.cpp" />
+    <ClCompile Include="src\Logging\ConsoleLogger.cpp" />
+    <ClCompile Include="src\Logging\FileLogger.cpp" />
+    <ClCompile Include="src\Logging\ILogger.cpp" />
+    <ClCompile Include="src\Logging\LoggerGroup.cpp" />
+    <ClCompile Include="src\Logging\LoggerManager.cpp" />
+    <ClCompile Include="src\Logging\LoggerMessage.cpp" />
+    <ClCompile Include="src\Logging\LoggerRef.cpp" />
+    <ClCompile Include="src\Logging\StreamLogger.cpp" />
+    <ClCompile Include="src\Miner\BlockchainMonitor.cpp" />
+    <ClCompile Include="src\Miner\main.cpp" />
+    <ClCompile Include="src\Miner\Miner.cpp" />
+    <ClCompile Include="src\Miner\MinerManager.cpp" />
+    <ClCompile Include="src\Miner\MiningConfig.cpp" />
+    <ClCompile Include="src\Mnemonics\electrum-words.cpp" />
+    <ClCompile Include="src\NodeRpcProxy\NodeErrors.cpp" />
+    <ClCompile Include="src\NodeRpcProxy\NodeRpcProxy.cpp" />
+    <ClCompile Include="src\P2p\IP2pNodeInternal.cpp" />
+    <ClCompile Include="src\P2p\LevinProtocol.cpp" />
+    <ClCompile Include="src\P2p\NetNode.cpp" />
+    <ClCompile Include="src\P2p\NetNodeConfig.cpp" />
+    <ClCompile Include="src\P2p\P2pConnectionProxy.cpp" />
+    <ClCompile Include="src\P2p\P2pContext.cpp" />
+    <ClCompile Include="src\P2p\P2pContextOwner.cpp" />
+    <ClCompile Include="src\P2p\P2pInterfaces.cpp" />
+    <ClCompile Include="src\P2p\P2pNode.cpp" />
+    <ClCompile Include="src\P2p\P2pNodeConfig.cpp" />
+    <ClCompile Include="src\P2p\PeerListManager.cpp" />
+    <ClCompile Include="src\PaymentGateService\ConfigurationManager.cpp" />
+    <ClCompile Include="src\PaymentGateService\main.cpp" />
+    <ClCompile Include="src\PaymentGateService\PaymentGateService.cpp" />
+    <ClCompile Include="src\PaymentGateService\PaymentServiceConfiguration.cpp" />
+    <ClCompile Include="src\PaymentGateService\RpcNodeConfiguration.cpp" />
+    <ClCompile Include="src\PaymentGate\NodeFactory.cpp" />
+    <ClCompile Include="src\PaymentGate\PaymentServiceJsonRpcMessages.cpp" />
+    <ClCompile Include="src\PaymentGate\PaymentServiceJsonRpcServer.cpp" />
+    <ClCompile Include="src\PaymentGate\WalletService.cpp" />
+    <ClCompile Include="src\PaymentGate\WalletServiceErrorCategory.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\Dispatcher.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\ErrorMessage.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\Ipv4Resolver.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\MemoryMappedFile.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\TcpConnection.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\TcpConnector.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\TcpListener.cpp" />
+    <ClCompile Include="src\Platform\Windows\System\Timer.cpp" />
+    <ClCompile Include="src\PoolWallet\PasswordContainer.cpp" />
+    <ClCompile Include="src\PoolWallet\PoolWallet.cpp" />
+    <ClCompile Include="src\PoolWallet\TransferCommand.cpp" />
+    <ClCompile Include="src\Rpc\HttpClient.cpp" />
+    <ClCompile Include="src\Rpc\HttpServer.cpp" />
+    <ClCompile Include="src\Rpc\JsonRpc.cpp" />
+    <ClCompile Include="src\Rpc\RpcServer.cpp" />
+    <ClCompile Include="src\Rpc\RpcServerConfig.cpp" />
+    <ClCompile Include="src\Serialization\BinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\BinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\BlockchainExplorerDataSerialization.cpp" />
+    <ClCompile Include="src\Serialization\JsonInputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\JsonInputValueSerializer.cpp" />
+    <ClCompile Include="src\Serialization\JsonOutputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\KVBinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\KVBinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="src\Serialization\MemoryStream.cpp" />
+    <ClCompile Include="src\Serialization\SerializationOverloads.cpp" />
+    <ClCompile Include="src\SimpleWallet\Fusion.cpp" />
+    <ClCompile Include="src\SimpleWallet\ParseArguments.cpp" />
+    <ClCompile Include="src\SimpleWallet\PasswordContainer.cpp" />
+    <ClCompile Include="src\SimpleWallet\SimpleWallet.cpp" />
+    <ClCompile Include="src\SimpleWallet\Tools.cpp" />
+    <ClCompile Include="src\SimpleWallet\Transfer.cpp" />
+    <ClCompile Include="src\System\ContextGroup.cpp" />
+    <ClCompile Include="src\System\ContextGroupTimeout.cpp" />
+    <ClCompile Include="src\System\Event.cpp" />
+    <ClCompile Include="src\System\EventLock.cpp" />
+    <ClCompile Include="src\System\InterruptedException.cpp" />
+    <ClCompile Include="src\System\Ipv4Address.cpp" />
+    <ClCompile Include="src\System\RemoteEventLock.cpp" />
+    <ClCompile Include="src\System\TcpStream.cpp" />
+    <ClCompile Include="src\Transfers\BlockchainSynchronizer.cpp" />
+    <ClCompile Include="src\Transfers\SynchronizationState.cpp" />
+    <ClCompile Include="src\Transfers\TransfersConsumer.cpp" />
+    <ClCompile Include="src\Transfers\TransfersContainer.cpp" />
+    <ClCompile Include="src\Transfers\TransfersSubscription.cpp" />
+    <ClCompile Include="src\Transfers\TransfersSynchronizer.cpp" />
+    <ClCompile Include="src\WalletLegacy\KeysStorage.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletHelper.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletLegacy.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletLegacySerialization.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletLegacySerializer.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletTransactionSender.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletUnconfirmedTransactions.cpp" />
+    <ClCompile Include="src\WalletLegacy\WalletUserTransactionsCache.cpp" />
+    <ClCompile Include="src\Wallet\LegacyKeysImporter.cpp" />
+    <ClCompile Include="src\Wallet\WalletAsyncContextCounter.cpp" />
+    <ClCompile Include="src\Wallet\WalletErrors.cpp" />
+    <ClCompile Include="src\Wallet\WalletGreen.cpp" />
+    <ClCompile Include="src\Wallet\WalletRpcServer.cpp" />
+    <ClCompile Include="src\Wallet\WalletSerializationV1.cpp" />
+    <ClCompile Include="src\Wallet\WalletSerializationV2.cpp" />
+    <ClCompile Include="src\Wallet\WalletUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CryptoNoteConfig.h" />
+    <ClInclude Include="include\BlockchainExplorerData.h" />
+    <ClInclude Include="include\CryptoNote.h" />
+    <ClInclude Include="include\CryptoTypes.h" />
+    <ClInclude Include="include\IBlockchainExplorer.h" />
+    <ClInclude Include="include\IDataBase.h" />
+    <ClInclude Include="include\INode.h" />
+    <ClInclude Include="include\IObservable.h" />
+    <ClInclude Include="include\IReadBatch.h" />
+    <ClInclude Include="include\IStreamSerializable.h" />
+    <ClInclude Include="include\ITransaction.h" />
+    <ClInclude Include="include\ITransfersContainer.h" />
+    <ClInclude Include="include\ITransfersSynchronizer.h" />
+    <ClInclude Include="include\IWallet.h" />
+    <ClInclude Include="include\IWalletLegacy.h" />
+    <ClInclude Include="include\IWriteBatch.h" />
+    <ClInclude Include="src\BlockchainExplorer\BlockchainExplorer.h" />
+    <ClInclude Include="src\BlockchainExplorer\BlockchainExplorerErrors.h" />
+    <ClInclude Include="src\Common\ArrayRef.h" />
+    <ClInclude Include="src\Common\ArrayView.h" />
+    <ClInclude Include="src\Common\Base58.h" />
+    <ClInclude Include="src\Common\BlockingQueue.h" />
+    <ClInclude Include="src\Common\CommandLine.h" />
+    <ClInclude Include="src\Common\ConsoleHandler.h" />
+    <ClInclude Include="src\Common\ConsoleTools.h" />
+    <ClInclude Include="src\Common\FileMappedVector.h" />
+    <ClInclude Include="src\Common\IInputStream.h" />
+    <ClInclude Include="src\Common\int-util.h" />
+    <ClInclude Include="src\Common\IOutputStream.h" />
+    <ClInclude Include="src\Common\JsonValue.h" />
+    <ClInclude Include="src\Common\Math.h" />
+    <ClInclude Include="src\Common\MemoryInputStream.h" />
+    <ClInclude Include="src\Common\ObserverManager.h" />
+    <ClInclude Include="src\Common\PathTools.h" />
+    <ClInclude Include="src\Common\pod-class.h" />
+    <ClInclude Include="src\Common\ScopeExit.h" />
+    <ClInclude Include="src\Common\ShuffleGenerator.h" />
+    <ClInclude Include="src\Common\SignalHandler.h" />
+    <ClInclude Include="src\Common\static_assert.h" />
+    <ClInclude Include="src\Common\StdInputStream.h" />
+    <ClInclude Include="src\Common\StdOutputStream.h" />
+    <ClInclude Include="src\Common\StreamTools.h" />
+    <ClInclude Include="src\Common\StringBuffer.h" />
+    <ClInclude Include="src\Common\StringInputStream.h" />
+    <ClInclude Include="src\Common\StringOutputStream.h" />
+    <ClInclude Include="src\Common\StringTools.h" />
+    <ClInclude Include="src\Common\StringView.h" />
+    <ClInclude Include="src\Common\Util.h" />
+    <ClInclude Include="src\Common\Varint.h" />
+    <ClInclude Include="src\Common\VectorOutputStream.h" />
+    <ClInclude Include="src\CryptoNoteCore\Account.h" />
+    <ClInclude Include="src\CryptoNoteCore\AddBlockErrorCondition.h" />
+    <ClInclude Include="src\CryptoNoteCore\AddBlockErrors.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainCache.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainMessages.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainReadBatch.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainUtils.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockchainWriteBatch.h" />
+    <ClInclude Include="src\CryptoNoteCore\BlockValidationErrors.h" />
+    <ClInclude Include="src\CryptoNoteCore\CachedBlock.h" />
+    <ClInclude Include="src\CryptoNoteCore\CachedTransaction.h" />
+    <ClInclude Include="src\CryptoNoteCore\Checkpoints.h" />
+    <ClInclude Include="src\CryptoNoteCore\Core.h" />
+    <ClInclude Include="src\CryptoNoteCore\CoreErrors.h" />
+    <ClInclude Include="src\CryptoNoteCore\CoreStatistics.h" />
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteBasic.h" />
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteBasicImpl.h" />
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteFormatUtils.h" />
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteSerialization.h" />
+    <ClInclude Include="src\CryptoNoteCore\CryptoNoteTools.h" />
+    <ClInclude Include="src\CryptoNoteCore\Currency.h" />
+    <ClInclude Include="src\CryptoNoteCore\DatabaseBlockchainCache.h" />
+    <ClInclude Include="src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h" />
+    <ClInclude Include="src\CryptoNoteCore\DatabaseCacheData.h" />
+    <ClInclude Include="src\CryptoNoteCore\DataBaseConfig.h" />
+    <ClInclude Include="src\CryptoNoteCore\DataBaseErrors.h" />
+    <ClInclude Include="src\CryptoNoteCore\DBUtils.h" />
+    <ClInclude Include="src\CryptoNoteCore\Difficulty.h" />
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainCache.h" />
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainCacheFactory.h" />
+    <ClInclude Include="src\CryptoNoteCore\IBlockchainStorageObserver.h" />
+    <ClInclude Include="src\CryptoNoteCore\ICore.h" />
+    <ClInclude Include="src\CryptoNoteCore\ICoreDefinitions.h" />
+    <ClInclude Include="src\CryptoNoteCore\ICoreInformation.h" />
+    <ClInclude Include="src\CryptoNoteCore\ICoreObserver.h" />
+    <ClInclude Include="src\CryptoNoteCore\IKeyValueStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\IMainChainStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\IMinerHandler.h" />
+    <ClInclude Include="src\CryptoNoteCore\IntrusiveLinkedList.h" />
+    <ClInclude Include="src\CryptoNoteCore\ITimeProvider.h" />
+    <ClInclude Include="src\CryptoNoteCore\ITransactionPool.h" />
+    <ClInclude Include="src\CryptoNoteCore\ITransactionPoolCleaner.h" />
+    <ClInclude Include="src\CryptoNoteCore\ITransactionValidator.h" />
+    <ClInclude Include="src\CryptoNoteCore\ITxPoolObserver.h" />
+    <ClInclude Include="src\CryptoNoteCore\IUpgradeDetector.h" />
+    <ClInclude Include="src\CryptoNoteCore\IUpgradeManager.h" />
+    <ClInclude Include="src\CryptoNoteCore\MainChainStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\MemoryBlockchainCacheFactory.h" />
+    <ClInclude Include="src\CryptoNoteCore\MemoryBlockchainStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\MessageQueue.h" />
+    <ClInclude Include="src\CryptoNoteCore\Miner.h" />
+    <ClInclude Include="src\CryptoNoteCore\MinerConfig.h" />
+    <ClInclude Include="src\CryptoNoteCore\OnceInInterval.h" />
+    <ClInclude Include="src\CryptoNoteCore\RocksDBWrapper.h" />
+    <ClInclude Include="src\CryptoNoteCore\SwappedBlockchainStorage.h" />
+    <ClInclude Include="src\CryptoNoteCore\SwappedMap.h" />
+    <ClInclude Include="src\CryptoNoteCore\SwappedVector.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionApi.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionApiExtra.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionExtra.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionPool.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionPoolCleaner.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionPoolMessages.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionUtils.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionValidationErrors.h" />
+    <ClInclude Include="src\CryptoNoteCore\TransactionValidatiorState.h" />
+    <ClInclude Include="src\CryptoNoteCore\UpgradeDetector.h" />
+    <ClInclude Include="src\CryptoNoteCore\UpgradeManager.h" />
+    <ClInclude Include="src\CryptoNoteCore\VerificationContext.h" />
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolDefinitions.h" />
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.h" />
+    <ClInclude Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandlerCommon.h" />
+    <ClInclude Include="src\CryptoNoteProtocol\ICryptoNoteProtocolObserver.h" />
+    <ClInclude Include="src\CryptoNoteProtocol\ICryptoNoteProtocolQuery.h" />
+    <ClInclude Include="src\crypto\aesb.h" />
+    <ClInclude Include="src\crypto\blake256.h" />
+    <ClInclude Include="src\crypto\chacha8.h" />
+    <ClInclude Include="src\crypto\crypto-ops.h" />
+    <ClInclude Include="src\crypto\crypto.h" />
+    <ClInclude Include="src\crypto\cryptonight-variants.h" />
+    <ClInclude Include="src\crypto\cryptonight.h" />
+    <ClInclude Include="src\crypto\generic-ops.h" />
+    <ClInclude Include="src\crypto\groestl.h" />
+    <ClInclude Include="src\crypto\groestl_tables.h" />
+    <ClInclude Include="src\crypto\hash-ops.h" />
+    <ClInclude Include="src\crypto\hash.h" />
+    <ClInclude Include="src\crypto\initializer.h" />
+    <ClInclude Include="src\crypto\jh.h" />
+    <ClInclude Include="src\crypto\keccak.h" />
+    <ClInclude Include="src\crypto\oaes_config.h" />
+    <ClInclude Include="src\crypto\oaes_lib.h" />
+    <ClInclude Include="src\crypto\random.h" />
+    <ClInclude Include="src\crypto\skein.h" />
+    <ClInclude Include="src\crypto\skein_port.h" />
+    <ClInclude Include="src\Daemon\DaemonCommandsHandler.h" />
+    <ClInclude Include="src\HTTP\HttpParser.h" />
+    <ClInclude Include="src\HTTP\HttpParserErrorCodes.h" />
+    <ClInclude Include="src\HTTP\HttpRequest.h" />
+    <ClInclude Include="src\HTTP\HttpResponse.h" />
+    <ClInclude Include="src\InProcessNode\InProcessNode.h" />
+    <ClInclude Include="src\InProcessNode\InProcessNodeErrors.h" />
+    <ClInclude Include="src\JsonRpcServer\JsonRpcServer.h" />
+    <ClInclude Include="src\Logging\CommonLogger.h" />
+    <ClInclude Include="src\Logging\ConsoleLogger.h" />
+    <ClInclude Include="src\Logging\FileLogger.h" />
+    <ClInclude Include="src\Logging\ILogger.h" />
+    <ClInclude Include="src\Logging\LoggerGroup.h" />
+    <ClInclude Include="src\Logging\LoggerManager.h" />
+    <ClInclude Include="src\Logging\LoggerMessage.h" />
+    <ClInclude Include="src\Logging\LoggerRef.h" />
+    <ClInclude Include="src\Logging\StreamLogger.h" />
+    <ClInclude Include="src\Miner\BlockchainMonitor.h" />
+    <ClInclude Include="src\Miner\Miner.h" />
+    <ClInclude Include="src\Miner\MinerEvent.h" />
+    <ClInclude Include="src\Miner\MinerManager.h" />
+    <ClInclude Include="src\Miner\MiningConfig.h" />
+    <ClInclude Include="src\Mnemonics\chinese_simplified.h" />
+    <ClInclude Include="src\Mnemonics\dutch.h" />
+    <ClInclude Include="src\Mnemonics\electrum-words.h" />
+    <ClInclude Include="src\Mnemonics\english.h" />
+    <ClInclude Include="src\Mnemonics\english_old.h" />
+    <ClInclude Include="src\Mnemonics\esperanto.h" />
+    <ClInclude Include="src\Mnemonics\french.h" />
+    <ClInclude Include="src\Mnemonics\german.h" />
+    <ClInclude Include="src\Mnemonics\italian.h" />
+    <ClInclude Include="src\Mnemonics\japanese.h" />
+    <ClInclude Include="src\Mnemonics\language_base.h" />
+    <ClInclude Include="src\Mnemonics\lojban.h" />
+    <ClInclude Include="src\Mnemonics\portuguese.h" />
+    <ClInclude Include="src\Mnemonics\russian.h" />
+    <ClInclude Include="src\Mnemonics\singleton.h" />
+    <ClInclude Include="src\Mnemonics\spanish.h" />
+    <ClInclude Include="src\NodeRpcProxy\NodeErrors.h" />
+    <ClInclude Include="src\NodeRpcProxy\NodeRpcProxy.h" />
+    <ClInclude Include="src\P2p\ConnectionContext.h" />
+    <ClInclude Include="src\P2p\IP2pNodeInternal.h" />
+    <ClInclude Include="src\P2p\LevinProtocol.h" />
+    <ClInclude Include="src\P2p\NetNode.h" />
+    <ClInclude Include="src\P2p\NetNodeCommon.h" />
+    <ClInclude Include="src\P2p\NetNodeConfig.h" />
+    <ClInclude Include="src\P2p\P2pConnectionProxy.h" />
+    <ClInclude Include="src\P2p\P2pContext.h" />
+    <ClInclude Include="src\P2p\P2pContextOwner.h" />
+    <ClInclude Include="src\P2p\P2pInterfaces.h" />
+    <ClInclude Include="src\P2p\P2pNetworks.h" />
+    <ClInclude Include="src\P2p\P2pNode.h" />
+    <ClInclude Include="src\P2p\P2pNodeConfig.h" />
+    <ClInclude Include="src\P2p\P2pProtocolDefinitions.h" />
+    <ClInclude Include="src\P2p\P2pProtocolTypes.h" />
+    <ClInclude Include="src\P2p\PeerListManager.h" />
+    <ClInclude Include="src\PaymentGateService\ConfigurationManager.h" />
+    <ClInclude Include="src\PaymentGateService\PaymentGateService.h" />
+    <ClInclude Include="src\PaymentGateService\PaymentServiceConfiguration.h" />
+    <ClInclude Include="src\PaymentGateService\RpcNodeConfiguration.h" />
+    <ClInclude Include="src\PaymentGate\NodeFactory.h" />
+    <ClInclude Include="src\PaymentGate\PaymentServiceJsonRpcMessages.h" />
+    <ClInclude Include="src\PaymentGate\PaymentServiceJsonRpcServer.h" />
+    <ClInclude Include="src\PaymentGate\WalletService.h" />
+    <ClInclude Include="src\PaymentGate\WalletServiceErrorCategory.h" />
+    <ClInclude Include="src\Platform\Windows\System\Dispatcher.h" />
+    <ClInclude Include="src\Platform\Windows\System\ErrorMessage.h" />
+    <ClInclude Include="src\Platform\Windows\System\Future.h" />
+    <ClInclude Include="src\Platform\Windows\System\Ipv4Resolver.h" />
+    <ClInclude Include="src\Platform\Windows\System\MemoryMappedFile.h" />
+    <ClInclude Include="src\Platform\Windows\System\TcpConnection.h" />
+    <ClInclude Include="src\Platform\Windows\System\TcpConnector.h" />
+    <ClInclude Include="src\Platform\Windows\System\TcpListener.h" />
+    <ClInclude Include="src\Platform\Windows\System\Timer.h" />
+    <ClInclude Include="src\PoolWallet\PasswordContainer.h" />
+    <ClInclude Include="src\PoolWallet\PoolWallet.h" />
+    <ClInclude Include="src\PoolWallet\TransferCommand.h" />
+    <ClInclude Include="src\Rpc\CoreRpcServerCommandsDefinitions.h" />
+    <ClInclude Include="src\Rpc\CoreRpcServerErrorCodes.h" />
+    <ClInclude Include="src\Rpc\HttpClient.h" />
+    <ClInclude Include="src\Rpc\HttpServer.h" />
+    <ClInclude Include="src\Rpc\JsonRpc.h" />
+    <ClInclude Include="src\Rpc\RpcServer.h" />
+    <ClInclude Include="src\Rpc\RpcServerConfig.h" />
+    <ClInclude Include="src\Serialization\BinaryInputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\BinaryOutputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\BinarySerializationTools.h" />
+    <ClInclude Include="src\Serialization\BlockchainExplorerDataSerialization.h" />
+    <ClInclude Include="src\Serialization\ISerializer.h" />
+    <ClInclude Include="src\Serialization\IStream.h" />
+    <ClInclude Include="src\Serialization\JsonInputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\JsonInputValueSerializer.h" />
+    <ClInclude Include="src\Serialization\JsonOutputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\KVBinaryCommon.h" />
+    <ClInclude Include="src\Serialization\KVBinaryInputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\KVBinaryOutputStreamSerializer.h" />
+    <ClInclude Include="src\Serialization\MemoryStream.h" />
+    <ClInclude Include="src\Serialization\SerializationOverloads.h" />
+    <ClInclude Include="src\Serialization\SerializationTools.h" />
+    <ClInclude Include="src\SimpleWallet\Fusion.h" />
+    <ClInclude Include="src\SimpleWallet\ParseArguments.h" />
+    <ClInclude Include="src\SimpleWallet\PasswordContainer.h" />
+    <ClInclude Include="src\SimpleWallet\SimpleWallet.h" />
+    <ClInclude Include="src\SimpleWallet\Tools.h" />
+    <ClInclude Include="src\SimpleWallet\Transfer.h" />
+    <ClInclude Include="src\System\Context.h" />
+    <ClInclude Include="src\System\ContextGroup.h" />
+    <ClInclude Include="src\System\ContextGroupTimeout.h" />
+    <ClInclude Include="src\System\Event.h" />
+    <ClInclude Include="src\System\EventLock.h" />
+    <ClInclude Include="src\System\InterruptedException.h" />
+    <ClInclude Include="src\System\Ipv4Address.h" />
+    <ClInclude Include="src\System\OperationTimeout.h" />
+    <ClInclude Include="src\System\RemoteContext.h" />
+    <ClInclude Include="src\System\RemoteEventLock.h" />
+    <ClInclude Include="src\System\TcpStream.h" />
+    <ClInclude Include="src\Transfers\BlockchainSynchronizer.h" />
+    <ClInclude Include="src\Transfers\CommonTypes.h" />
+    <ClInclude Include="src\Transfers\IBlockchainSynchronizer.h" />
+    <ClInclude Include="src\Transfers\IObservableImpl.h" />
+    <ClInclude Include="src\Transfers\SynchronizationState.h" />
+    <ClInclude Include="src\Transfers\TransfersConsumer.h" />
+    <ClInclude Include="src\Transfers\TransfersContainer.h" />
+    <ClInclude Include="src\Transfers\TransfersSubscription.h" />
+    <ClInclude Include="src\Transfers\TransfersSynchronizer.h" />
+    <ClInclude Include="src\Transfers\TypeHelpers.h" />
+    <ClInclude Include="src\WalletLegacy\KeysStorage.h" />
+    <ClInclude Include="src\WalletLegacy\WalletHelper.h" />
+    <ClInclude Include="src\WalletLegacy\WalletLegacy.h" />
+    <ClInclude Include="src\WalletLegacy\WalletLegacyEvent.h" />
+    <ClInclude Include="src\WalletLegacy\WalletLegacySerialization.h" />
+    <ClInclude Include="src\WalletLegacy\WalletLegacySerializer.h" />
+    <ClInclude Include="src\WalletLegacy\WalletRequest.h" />
+    <ClInclude Include="src\WalletLegacy\WalletSendTransactionContext.h" />
+    <ClInclude Include="src\WalletLegacy\WalletTransactionSender.h" />
+    <ClInclude Include="src\WalletLegacy\WalletUnconfirmedTransactions.h" />
+    <ClInclude Include="src\WalletLegacy\WalletUserTransactionsCache.h" />
+    <ClInclude Include="src\WalletLegacy\WalletUtils.h" />
+    <ClInclude Include="src\Wallet\IFusionManager.h" />
+    <ClInclude Include="src\Wallet\LegacyKeysImporter.h" />
+    <ClInclude Include="src\Wallet\WalletAsyncContextCounter.h" />
+    <ClInclude Include="src\Wallet\WalletErrors.h" />
+    <ClInclude Include="src\Wallet\WalletGreen.h" />
+    <ClInclude Include="src\Wallet\WalletIndices.h" />
+    <ClInclude Include="src\Wallet\WalletRpcServer.h" />
+    <ClInclude Include="src\Wallet\WalletRpcServerCommandsDefinitions.h" />
+    <ClInclude Include="src\Wallet\WalletRpcServerErrorCodes.h" />
+    <ClInclude Include="src\Wallet\WalletSerializationV1.h" />
+    <ClInclude Include="src\Wallet\WalletSerializationV2.h" />
+    <ClInclude Include="src\Wallet\WalletUtils.h" />
+    <ClInclude Include="version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\crypto\slow-hash.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cryptonotelib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>cryptonote</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)include;$(ProjectDir)src;$(ProjectDir)src\Platform\Windows;C:\Boost\boost_1_70_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
