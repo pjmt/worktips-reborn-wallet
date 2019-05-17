@@ -1574,6 +1574,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)src\WalletLegacy\WalletUserTransactionsCache.cpp">
       <Filter>Source Files\WalletLegacy</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\BlockchainExplorer\BlockchainExplorer.cpp">
+      <Filter>Source Files\BlockchainExplorer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)src\crypto\slow-hash.inl">
