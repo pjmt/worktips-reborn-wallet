@@ -137,7 +137,7 @@ int runDaemon() {
 #ifdef WIN32
 
   SERVICE_TABLE_ENTRY serviceTable[] {
-    { "Payment Gate", serviceMain },
+    { (LPSTR)"Payment Gate", serviceMain },
     { NULL, NULL }
   };
 
