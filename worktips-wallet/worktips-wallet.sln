@@ -5,14 +5,11 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktips-wallet", "worktips-wallet.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptonote", "..\cryptonote\cryptonote.vcxitems", "{46D5A7D4-78F5-49EC-A74B-69F608096C22}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptonote-lib", "..\cryptonote-lib\cryptonote-lib.vcxproj", "{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "miniupnpc", "..\external\miniupnp\miniupnpc\msvc\miniupnpc.vcxproj", "{D28CE435-CB33-4BAE-8A52-C6EF915956F5}"
+EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		..\cryptonote\cryptonote.vcxitems*{46d5a7d4-78f5-49ec-a74b-69f608096c22}*SharedItemsImports = 9
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
@@ -34,6 +31,12 @@ Global
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x64.Build.0 = Release|x64
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x86.ActiveCfg = Release|Win32
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x86.Build.0 = Release|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Debug|x64.ActiveCfg = Debug|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Debug|x86.Build.0 = Debug|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Release|x64.ActiveCfg = Release|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Release|x86.ActiveCfg = Release|Win32
+		{D28CE435-CB33-4BAE-8A52-C6EF915956F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
