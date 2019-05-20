@@ -525,11 +525,6 @@
   <ItemGroup>
     <None Include="src\crypto\slow-hash.inl" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\external\miniupnp\miniupnpc\msvc\miniupnpc.vcxproj">
-      <Project>{d28ce435-cb33-4bae-8a52-c6ef915956f5}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}</ProjectGuid>
