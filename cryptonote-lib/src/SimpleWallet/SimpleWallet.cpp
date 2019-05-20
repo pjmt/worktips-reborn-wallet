@@ -1204,7 +1204,7 @@ std::string getBlockTime(CryptoNote::BlockDetails b)
 
     std::time_t time = b.timestamp;
     char buffer[100];
-    std::strftime(buffer, sizeof(buffer), "%F %R", std::localtime(&time));
+    std::strftime(buffer, sizeof(buffer), "%F %R", localtime(&time));
     return std::string(buffer);
 }
 
