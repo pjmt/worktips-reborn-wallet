@@ -2,3 +2,6 @@
 	path = external/miniupnp
 	url = https://github.com/monero-project/miniupnp
 	branch = monero
+[submodule "external/rocksdb"]
+	path = external/rocksdb
+	url = https://github.com/facebook/rocksdb
