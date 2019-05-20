@@ -55,6 +55,7 @@ namespace Tools
     ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));
 
     osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);
+#pragma warning(disable : 4996)
     bOsVersionInfoEx = GetVersionEx((OSVERSIONINFO*) &osvi);
 
     if(!bOsVersionInfoEx) return pszOS;
