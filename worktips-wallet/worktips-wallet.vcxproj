@@ -105,7 +105,7 @@
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\lib;D:\WorkSpace\LIBRARIES\vcpkg\packages\miniupnpc_x64-windows\lib;$(SolutionDir)$(Platform)\$(Configuration)\;$(ProjectDir)libs;C:\Boost\boost_1_70_0\lib64-msvc-14.1;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <AdditionalDependencies>cryptonote.lib;miniupnpc.lib;rocksdb-shared.lib;qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Network.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>cryptonote.lib;miniupnpc.lib;rocksdb-shared.lib;qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Network.lib;Wtsapi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
     </Link>
     <QtMoc>
