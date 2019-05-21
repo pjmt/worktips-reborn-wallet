@@ -386,33 +386,33 @@
     <QtMoc Include="source\Application\SignalHandler.h" />
     <QtMoc Include="source\Application\WalletApplication.h" />
     <QtMoc Include="source\Application\WalletSplashScreen.h" />
-    <ClInclude Include="source\Gui\Common\TransactionsAmountDelegate.h" />
-    <ClInclude Include="source\Gui\Common\TransactionsHeaderView.h" />
-    <ClInclude Include="source\Gui\Common\TransactionsTimeDelegate.h" />
-    <ClInclude Include="source\Gui\Common\TransfersHeaderView.h" />
-    <ClInclude Include="source\Gui\Common\WalletBlueButton.h" />
-    <ClInclude Include="source\Gui\Common\WalletCancelButton.h" />
-    <ClInclude Include="source\Gui\Common\WalletDescriptionLabel.h" />
-    <ClInclude Include="source\Gui\Common\WalletGrayCheckBox.h" />
-    <ClInclude Include="source\Gui\Common\WalletLinkLikeButton.h" />
-    <ClInclude Include="source\Gui\Common\WalletNavigationButton.h" />
-    <ClInclude Include="source\Gui\Common\WalletOkButton.h" />
-    <ClInclude Include="source\Gui\Common\WalletTableView.h" />
-    <ClInclude Include="source\Gui\Common\WalletTextLabel.h" />
-    <ClInclude Include="source\Gui\Common\WalletTreeView.h" />
-    <ClInclude Include="source\Gui\Common\WalletWindowedItemModel.h" />
+    <QtMoc Include="source\Gui\Common\TransactionsAmountDelegate.h" />
+    <QtMoc Include="source\Gui\Common\TransactionsHeaderView.h" />
+    <QtMoc Include="source\Gui\Common\TransactionsTimeDelegate.h" />
+    <QtMoc Include="source\Gui\Common\TransfersHeaderView.h" />
+    <QtMoc Include="source\Gui\Common\WalletBlueButton.h" />
+    <QtMoc Include="source\Gui\Common\WalletCancelButton.h" />
+    <QtMoc Include="source\Gui\Common\WalletDescriptionLabel.h" />
+    <QtMoc Include="source\Gui\Common\WalletGrayCheckBox.h" />
+    <QtMoc Include="source\Gui\Common\WalletLinkLikeButton.h" />
+    <QtMoc Include="source\Gui\Common\WalletNavigationButton.h" />
+    <QtMoc Include="source\Gui\Common\WalletOkButton.h" />
+    <QtMoc Include="source\Gui\Common\WalletTableView.h" />
+    <QtMoc Include="source\Gui\Common\WalletTextLabel.h" />
+    <QtMoc Include="source\Gui\Common\WalletTreeView.h" />
+    <QtMoc Include="source\Gui\Common\WalletWindowedItemModel.h" />
     <QtMoc Include="source\Gui\MainWindow\MainWindow.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\MainWindow\WalletStatusBar.h" />
-    <ClInclude Include="source\Gui\Mining\MinerDelegate.h" />
+    <QtMoc Include="source\Gui\MainWindow\WalletStatusBar.h" />
+    <QtMoc Include="source\Gui\Mining\MinerDelegate.h" />
     <QtMoc Include="source\Gui\Mining\MiningFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\Mining\PoolHeaderView.h" />
-    <ClInclude Include="source\Gui\Mining\PoolTreeView.h" />
+    <QtMoc Include="source\Gui\Mining\PoolHeaderView.h" />
+    <QtMoc Include="source\Gui\Mining\PoolTreeView.h" />
     <QtMoc Include="source\Gui\NoWallet\NoWalletFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
@@ -421,7 +421,7 @@
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\Options\DonationAddressesModel.h" />
+    <QtMoc Include="source\Gui\Options\DonationAddressesModel.h" />
     <QtMoc Include="source\Gui\Options\DonationOptionsFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
@@ -447,26 +447,26 @@
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\Overview\OverviewHeaderGlassFrame.h" />
-    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolModel.h" />
-    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolTreeView.h" />
-    <ClInclude Include="source\Gui\Overview\RecentTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Overview\OverviewHeaderGlassFrame.h" />
+    <QtMoc Include="source\Gui\Overview\OverviewTransactionPoolModel.h" />
+    <QtMoc Include="source\Gui\Overview\OverviewTransactionPoolTreeView.h" />
+    <QtMoc Include="source\Gui\Overview\RecentTransactionsModel.h" />
     <QtMoc Include="source\Gui\Send\SendFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\Send\SendGlassFrame.h" />
+    <QtMoc Include="source\Gui\Send\SendGlassFrame.h" />
     <QtMoc Include="source\Gui\Send\TransferFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
     </QtMoc>
-    <ClInclude Include="source\Gui\Transactions\DrawableTransfersModel.h" />
-    <ClInclude Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.h" />
-    <ClInclude Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.h" />
-    <ClInclude Include="source\Gui\Transactions\FilteredByHashTransactionsModel.h" />
-    <ClInclude Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.h" />
-    <ClInclude Include="source\Gui\Transactions\FilteredTransactionsModel.h" />
-    <ClInclude Include="source\Gui\Transactions\TransactionsDelegate.h" />
+    <QtMoc Include="source\Gui\Transactions\DrawableTransfersModel.h" />
+    <QtMoc Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Transactions\FilteredByHashTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Transactions\FilteredTransactionsModel.h" />
+    <QtMoc Include="source\Gui\Transactions\TransactionsDelegate.h" />
     <QtMoc Include="source\Gui\Transactions\TransactionsFrame.h">
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)..\platform\Windows;$(ProjectDir)..\cryptonote;$(ProjectDir)..\cryptonote\src;$(ProjectDir)..\cryptonote\src\Platform\Windows;$(ProjectDir)..\cryptonote\include;$(ProjectDir)..\cryptonote\external;$(ProjectDir)..\cryptonote\external\rocksdb\include;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\WorkSpace\LIBRARIES\vcpkg\packages\rocksdb_x64-windows\include;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src\Platform\Windows;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\src;D:\WorkSpace\WORKTIPS\worktips-reborn-wallet\cryptonote-lib\include;$(ProjectDir)..\platform\Windows;$(ProjectDir)include;$(ProjectDir)source;C:\Boost\boost_1_70_0;.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtNetwork</IncludePath>
