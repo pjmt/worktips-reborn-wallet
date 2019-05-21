@@ -19,9 +19,10 @@
 
 #include <QWidget>
 
-namespace Ui {
-class ExitWidget;
-}
+#include "ui_ExitWidget.h"
+//namespace Ui {
+//class ExitWidget;
+//}
 
 namespace WalletGui {
 

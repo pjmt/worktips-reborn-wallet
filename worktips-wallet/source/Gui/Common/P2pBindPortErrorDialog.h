@@ -19,9 +19,10 @@
 
 #include <QDialog>
 
-namespace Ui {
-class P2pBindPortErrorDialog;
-}
+#include "ui_P2pBindPortErrorDialog.h"
+//namespace Ui {
+//class P2pBindPortErrorDialog;
+//}
 
 namespace WalletGui {
 

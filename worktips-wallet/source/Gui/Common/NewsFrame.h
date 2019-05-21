@@ -22,9 +22,10 @@
 #include "INewsReader.h"
 #include "Application/IWalletUiItem.h"
 
-namespace Ui {
-  class NewsFrame;
-}
+#include "ui_NewsFrame.h"
+//namespace Ui {
+//  class NewsFrame;
+//}
 
 namespace WalletGui {
 

@@ -19,9 +19,10 @@
 
 #include <QDialog>
 
-namespace Ui {
-class QuestionDialog;
-}
+#include "ui_QuestionDialog.h"
+//namespace Ui {
+//class QuestionDialog;
+//}
 
 namespace WalletGui {
 

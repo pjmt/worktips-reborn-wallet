@@ -21,9 +21,11 @@
 
 class QAbstractItemModel;
 
-namespace Ui {
-  class AddressBookDialog;
-}
+#include "ui_AddressBookDialog.h"
+
+//namespace Ui {
+//  class AddressBookDialog;
+//}
 
 namespace WalletGui {
 

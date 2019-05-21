@@ -27,9 +27,10 @@
 class QDataWidgetMapper;
 class QSortFilterProxyModel;
 
-namespace Ui {
-  class OverviewHeaderFrame;
-}
+#include "ui_OverviewHeaderFrame.h"
+//namespace Ui {
+//  class OverviewHeaderFrame;
+//}
 
 namespace WalletGui {
 

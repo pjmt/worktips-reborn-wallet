@@ -22,9 +22,10 @@
 class QAbstractItemModel;
 class QAbstractProxyModel;
 
-namespace Ui {
-  class TransactionTransfersRenderer;
-}
+#include "ui_TransactionTransfersRenderer.h"
+//namespace Ui {
+//  class TransactionTransfersRenderer;
+//}
 
 namespace WalletGui {
 

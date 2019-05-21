@@ -22,9 +22,10 @@
 #include "IOptionsPage.h"
 #include "Application/IWalletUiItem.h"
 
-namespace Ui {
-  class ConnectionOptionsFrame;
-}
+#include "ui_ConnectionOptionsFrame.h"
+//namespace Ui {
+//  class ConnectionOptionsFrame;
+//}
 
 namespace WalletGui {
 

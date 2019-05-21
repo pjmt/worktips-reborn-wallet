@@ -27,9 +27,10 @@
 class QAbstractButton;
 class QDataWidgetMapper;
 
-namespace Ui {
-class MiningFrame;
-}
+#include "ui_MiningFrame.h"
+//namespace Ui {
+//class MiningFrame;
+//}
 
 namespace WalletGui {
 

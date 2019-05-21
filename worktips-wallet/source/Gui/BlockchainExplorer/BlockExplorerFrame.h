@@ -23,11 +23,13 @@
 #include "Application/IWalletUiItem.h"
 #include "ICryptoNoteAdapter.h"
 
+#include "ui_BlockExplorerFrame.h"
+
 class QPropertyAnimation;
 
-namespace Ui {
-class BlockExplorerFrame;
-}
+//namespace Ui {
+//class BlockExplorerFrame;
+//}
 
 namespace WalletGui {
 

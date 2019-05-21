@@ -30,9 +30,10 @@ class QAbstractButton;
 class QAbstractItemModel;
 class QSessionManager;
 
-namespace Ui {
-  class MainWindow;
-}
+#include "ui_MainWindow.h"
+//namespace Ui {
+//  class MainWindow;
+//}
 
 namespace WalletGui {
 

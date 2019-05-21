@@ -23,9 +23,10 @@
 
 class QCompleter;
 
-namespace Ui {
-  class TransferFrame;
-}
+#include "ui_TransferFrame.h"
+//namespace Ui {
+//  class TransferFrame;
+//}
 
 namespace WalletGui {
 

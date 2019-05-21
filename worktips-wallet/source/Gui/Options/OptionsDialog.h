@@ -21,9 +21,10 @@
 
 class QAbstractItemModel;
 
-namespace Ui {
-  class OptionsDialog;
-}
+#include "ui_OptionsDialog.h"
+//namespace Ui {
+//  class OptionsDialog;
+//}
 
 namespace WalletGui {
 

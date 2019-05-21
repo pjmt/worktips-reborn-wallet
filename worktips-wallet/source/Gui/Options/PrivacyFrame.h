@@ -22,9 +22,10 @@
 #include "Application/IWalletUiItem.h"
 #include "IOptionsPage.h"
 
-namespace Ui {
-  class PrivacyFrame;
-}
+#include "ui_PrivacyFrame.h"
+//namespace Ui {
+//  class PrivacyFrame;
+//}
 
 namespace WalletGui {
 

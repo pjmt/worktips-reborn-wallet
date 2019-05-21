@@ -21,9 +21,10 @@
 
 #include "version.h"
 
-namespace Ui {
-class AboutDialog;
-}
+#include "ui_AboutDialog.h"
+//namespace Ui {
+//class AboutDialog;
+//}
 
 namespace WalletGui {
 

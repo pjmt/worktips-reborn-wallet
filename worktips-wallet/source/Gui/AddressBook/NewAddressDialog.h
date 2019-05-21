@@ -21,9 +21,10 @@
 
 class QPersistentModelIndex;
 
-namespace Ui {
-class NewAddressDialog;
-}
+#include "ui_NewAddressDialog.h"
+//namespace Ui {
+//class NewAddressDialog;
+//}
 
 namespace WalletGui {
 

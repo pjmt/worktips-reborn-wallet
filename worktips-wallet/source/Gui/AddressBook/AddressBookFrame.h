@@ -24,9 +24,11 @@
 class QLabel;
 class QPersistentModelIndex;
 
-namespace Ui {
-class AddressBookFrame;
-}
+#include "ui_AddressBookFrame.h"
+
+//namespace Ui {
+//class AddressBookFrame;
+//}
 
 namespace WalletGui {
 

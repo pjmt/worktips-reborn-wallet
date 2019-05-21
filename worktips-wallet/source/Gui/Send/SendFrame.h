@@ -26,9 +26,10 @@
 #include "ICryptoNoteAdapter.h"
 #include "IWalletAdapter.h"
 
-namespace Ui {
-class SendFrame;
-}
+#include "ui_SendFrame.h"
+//namespace Ui {
+//class SendFrame;
+//}
 
 namespace WalletGui {
 

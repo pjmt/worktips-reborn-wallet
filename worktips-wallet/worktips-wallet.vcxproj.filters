@@ -716,6 +716,48 @@
     <QtMoc Include="source\Gui\Common\TransactionDetailsDialog.h">
       <Filter>Header Files\Gui\Common</Filter>
     </QtMoc>
+    <QtMoc Include="source\Gui\MainWindow\MainWindow.h">
+      <Filter>Header Files\Gui\MainWindow</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\ConnectionOptionsFrame.h">
+      <Filter>Header Files\Gui\Options</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\DonationOptionsFrame.h">
+      <Filter>Header Files\Gui\Options</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Mining\MiningFrame.h">
+      <Filter>Header Files\Gui\Mining</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\NoWallet\NoWalletFrame.h">
+      <Filter>Header Files\Gui\NoWallet</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\OptimizationOptionsFrame.h">
+      <Filter>Header Files\Gui\Options</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\OptionsDialog.h">
+      <Filter>Header Files\Gui\Options</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\OverviewFrame.h">
+      <Filter>Header Files\Gui\Overview</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\OverviewHeaderFrame.h">
+      <Filter>Header Files\Gui\Overview</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\PrivacyFrame.h">
+      <Filter>Header Files\Gui\Options</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Send\SendFrame.h">
+      <Filter>Header Files\Gui\Send</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\TransactionsFrame.h">
+      <Filter>Header Files\Gui\Transactions</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\TransactionTransfersRenderer.h">
+      <Filter>Header Files\Gui\Transactions</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Send\TransferFrame.h">
+      <Filter>Header Files\Gui\Send</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="worktipswallet.ui">
@@ -958,16 +1000,10 @@
     <ClInclude Include="source\Gui\Common\WalletWindowedItemModel.h">
       <Filter>Header Files\Gui\Common</Filter>
     </ClInclude>
-    <ClInclude Include="source\Gui\MainWindow\MainWindow.h">
-      <Filter>Header Files\Gui\MainWindow</Filter>
-    </ClInclude>
     <ClInclude Include="source\Gui\MainWindow\WalletStatusBar.h">
       <Filter>Header Files\Gui\MainWindow</Filter>
     </ClInclude>
     <ClInclude Include="source\Gui\Mining\MinerDelegate.h">
-      <Filter>Header Files\Gui\Mining</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Mining\MiningFrame.h">
       <Filter>Header Files\Gui\Mining</Filter>
     </ClInclude>
     <ClInclude Include="source\Gui\Mining\PoolHeaderView.h">
@@ -976,32 +1012,8 @@
     <ClInclude Include="source\Gui\Mining\PoolTreeView.h">
       <Filter>Header Files\Gui\Mining</Filter>
     </ClInclude>
-    <ClInclude Include="source\Gui\NoWallet\NoWalletFrame.h">
-      <Filter>Header Files\Gui\NoWallet</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\ConnectionOptionsFrame.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
     <ClInclude Include="source\Gui\Options\DonationAddressesModel.h">
       <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\DonationOptionsFrame.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\OptimizationOptionsFrame.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\OptionsDialog.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\PrivacyFrame.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\OverviewFrame.h">
-      <Filter>Header Files\Gui\Overview</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\OverviewHeaderFrame.h">
-      <Filter>Header Files\Gui\Overview</Filter>
     </ClInclude>
     <ClInclude Include="source\Gui\Overview\OverviewHeaderGlassFrame.h">
       <Filter>Header Files\Gui\Overview</Filter>
@@ -1015,13 +1027,7 @@
     <ClInclude Include="source\Gui\Overview\RecentTransactionsModel.h">
       <Filter>Header Files\Gui\Overview</Filter>
     </ClInclude>
-    <ClInclude Include="source\Gui\Send\SendFrame.h">
-      <Filter>Header Files\Gui\Send</Filter>
-    </ClInclude>
     <ClInclude Include="source\Gui\Send\SendGlassFrame.h">
-      <Filter>Header Files\Gui\Send</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Send\TransferFrame.h">
       <Filter>Header Files\Gui\Send</Filter>
     </ClInclude>
     <ClInclude Include="source\Gui\Transactions\DrawableTransfersModel.h">
@@ -1043,12 +1049,6 @@
       <Filter>Header Files\Gui\Transactions</Filter>
     </ClInclude>
     <ClInclude Include="source\Gui\Transactions\TransactionsDelegate.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\TransactionsFrame.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\TransactionTransfersRenderer.h">
       <Filter>Header Files\Gui\Transactions</Filter>
     </ClInclude>
   </ItemGroup>

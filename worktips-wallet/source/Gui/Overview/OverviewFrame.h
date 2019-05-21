@@ -21,9 +21,10 @@
 #include "Application/IWalletUiItem.h"
 #include "Settings/Settings.h"
 
-namespace Ui {
-class OverviewFrame;
-}
+#include "ui_OverviewFrame.h"
+//namespace Ui {
+//class OverviewFrame;
+//}
 
 namespace WalletGui {
 

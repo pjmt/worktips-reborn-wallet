@@ -20,9 +20,11 @@
 #include <QDataWidgetMapper>
 #include <QDialog>
 
-namespace Ui {
-class BlockDetailsDialog;
-}
+#include "ui_BlockDetailsDialog.h"
+
+//namespace Ui {
+//class BlockDetailsDialog;
+//}
 
 namespace WalletGui {
 

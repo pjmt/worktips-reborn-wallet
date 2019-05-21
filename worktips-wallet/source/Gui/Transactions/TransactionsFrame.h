@@ -23,9 +23,10 @@
 
 class QPropertyAnimation;
 
-namespace Ui {
-class TransactionsFrame;
-}
+#include "ui_TransactionsFrame.h"
+//namespace Ui {
+//class TransactionsFrame;
+//}
 
 namespace WalletGui {
 

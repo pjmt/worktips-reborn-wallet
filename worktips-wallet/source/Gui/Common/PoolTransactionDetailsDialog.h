@@ -20,9 +20,10 @@
 #include <QDialog>
 #include <QPersistentModelIndex>
 
-namespace Ui {
-  class PoolTransactionDetailsDialog;
-}
+#include "ui_PoolTransactionDetailsDialog.h"
+//namespace Ui {
+//  class PoolTransactionDetailsDialog;
+//}
 
 namespace WalletGui {
 
