@@ -44,7 +44,6 @@
     <ClCompile Include="src\Common\StringView.cpp" />
     <ClCompile Include="src\Common\Util.cpp" />
     <ClCompile Include="src\Common\VectorOutputStream.cpp" />
-    <ClCompile Include="src\ConnectivityTool\ConnectivityTool.cpp" />
     <ClCompile Include="src\CryptoNoteCore\Account.cpp" />
     <ClCompile Include="src\CryptoNoteCore\AddBlockErrorCondition.cpp" />
     <ClCompile Include="src\CryptoNoteCore\AddBlockErrors.cpp" />
@@ -77,7 +76,6 @@
     <ClCompile Include="src\CryptoNoteCore\MainChainStorage.cpp" />
     <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp" />
     <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainStorage.cpp" />
-    <ClCompile Include="src\CryptoNoteCore\Miner.cpp" />
     <ClCompile Include="src\CryptoNoteCore\MinerConfig.cpp" />
     <ClCompile Include="src\CryptoNoteCore\RocksDBWrapper.cpp" />
     <ClCompile Include="src\CryptoNoteCore\SwappedBlockchainStorage.cpp" />
@@ -111,10 +109,8 @@
     <ClCompile Include="src\crypto\oaes_lib.c" />
     <ClCompile Include="src\crypto\random.c" />
     <ClCompile Include="src\crypto\skein.c" />
-    <ClCompile Include="src\crypto\slow-hash.c" />
     <ClCompile Include="src\crypto\slow-hash.cpp" />
     <ClCompile Include="src\crypto\tree-hash.c" />
-    <ClCompile Include="src\Daemon\Daemon.cpp" />
     <ClCompile Include="src\Daemon\DaemonCommandsHandler.cpp" />
     <ClCompile Include="src\HTTP\HttpParser.cpp" />
     <ClCompile Include="src\HTTP\HttpParserErrorCodes.cpp" />
@@ -132,11 +128,6 @@
     <ClCompile Include="src\Logging\LoggerMessage.cpp" />
     <ClCompile Include="src\Logging\LoggerRef.cpp" />
     <ClCompile Include="src\Logging\StreamLogger.cpp" />
-    <ClCompile Include="src\Miner\BlockchainMonitor.cpp" />
-    <ClCompile Include="src\Miner\main.cpp" />
-    <ClCompile Include="src\Miner\Miner.cpp" />
-    <ClCompile Include="src\Miner\MinerManager.cpp" />
-    <ClCompile Include="src\Miner\MiningConfig.cpp" />
     <ClCompile Include="src\Mnemonics\electrum-words.cpp" />
     <ClCompile Include="src\NodeRpcProxy\NodeErrors.cpp" />
     <ClCompile Include="src\NodeRpcProxy\NodeRpcProxy.cpp" />
@@ -169,9 +160,6 @@
     <ClCompile Include="src\Platform\Windows\System\TcpConnector.cpp" />
     <ClCompile Include="src\Platform\Windows\System\TcpListener.cpp" />
     <ClCompile Include="src\Platform\Windows\System\Timer.cpp" />
-    <ClCompile Include="src\PoolWallet\PasswordContainer.cpp" />
-    <ClCompile Include="src\PoolWallet\PoolWallet.cpp" />
-    <ClCompile Include="src\PoolWallet\TransferCommand.cpp" />
     <ClCompile Include="src\Rpc\HttpClient.cpp" />
     <ClCompile Include="src\Rpc\HttpServer.cpp" />
     <ClCompile Include="src\Rpc\JsonRpc.cpp" />
@@ -190,7 +178,6 @@
     <ClCompile Include="src\SimpleWallet\Fusion.cpp" />
     <ClCompile Include="src\SimpleWallet\ParseArguments.cpp" />
     <ClCompile Include="src\SimpleWallet\PasswordContainer.cpp" />
-    <ClCompile Include="src\SimpleWallet\SimpleWallet.cpp" />
     <ClCompile Include="src\SimpleWallet\Tools.cpp" />
     <ClCompile Include="src\SimpleWallet\Transfer.cpp" />
     <ClCompile Include="src\System\ContextGroup.cpp" />
@@ -604,6 +591,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <DebugInformationFormat>None</DebugInformationFormat>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

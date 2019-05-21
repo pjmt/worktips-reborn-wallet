@@ -255,9 +255,6 @@
     <ClCompile Include="src\Common\VectorOutputStream.cpp">
       <Filter>Source Files\Common</Filter>
     </ClCompile>
-    <ClCompile Include="src\ConnectivityTool\ConnectivityTool.cpp">
-      <Filter>Source Files\ConnectivityTool</Filter>
-    </ClCompile>
     <ClCompile Include="src\crypto\blake256.c">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
@@ -303,9 +300,6 @@
     <ClCompile Include="src\crypto\skein.c">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
-    <ClCompile Include="src\crypto\slow-hash.c">
-      <Filter>Source Files\crypto</Filter>
-    </ClCompile>
     <ClCompile Include="src\crypto\tree-hash.c">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
@@ -319,9 +313,6 @@
       <Filter>Source Files\CryptoNoteCore</Filter>
     </ClCompile>
     <ClCompile Include="src\CryptoNoteCore\MemoryBlockchainStorage.cpp">
-      <Filter>Source Files\CryptoNoteCore</Filter>
-    </ClCompile>
-    <ClCompile Include="src\CryptoNoteCore\Miner.cpp">
       <Filter>Source Files\CryptoNoteCore</Filter>
     </ClCompile>
     <ClCompile Include="src\CryptoNoteCore\MinerConfig.cpp">
@@ -465,9 +456,6 @@
     <ClCompile Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.cpp">
       <Filter>Source Files\CryptoNoteProtocol</Filter>
     </ClCompile>
-    <ClCompile Include="src\Daemon\Daemon.cpp">
-      <Filter>Source Files\Daemon</Filter>
-    </ClCompile>
     <ClCompile Include="src\Daemon\DaemonCommandsHandler.cpp">
       <Filter>Source Files\Daemon</Filter>
     </ClCompile>
@@ -518,21 +506,6 @@
     </ClCompile>
     <ClCompile Include="src\Logging\StreamLogger.cpp">
       <Filter>Source Files\Logging</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Miner\BlockchainMonitor.cpp">
-      <Filter>Source Files\Miner</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Miner\main.cpp">
-      <Filter>Source Files\Miner</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Miner\Miner.cpp">
-      <Filter>Source Files\Miner</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Miner\MinerManager.cpp">
-      <Filter>Source Files\Miner</Filter>
-    </ClCompile>
-    <ClCompile Include="src\Miner\MiningConfig.cpp">
-      <Filter>Source Files\Miner</Filter>
     </ClCompile>
     <ClCompile Include="src\Mnemonics\electrum-words.cpp">
       <Filter>Source Files\Mnemonics</Filter>
@@ -630,15 +603,6 @@
     <ClCompile Include="src\Platform\Windows\System\Timer.cpp">
       <Filter>Source Files\Platform\Windows\System</Filter>
     </ClCompile>
-    <ClCompile Include="src\PoolWallet\PasswordContainer.cpp">
-      <Filter>Source Files\PoolWallet</Filter>
-    </ClCompile>
-    <ClCompile Include="src\PoolWallet\PoolWallet.cpp">
-      <Filter>Source Files\PoolWallet</Filter>
-    </ClCompile>
-    <ClCompile Include="src\PoolWallet\TransferCommand.cpp">
-      <Filter>Source Files\PoolWallet</Filter>
-    </ClCompile>
     <ClCompile Include="src\Rpc\HttpClient.cpp">
       <Filter>Source Files\Rpc</Filter>
     </ClCompile>
@@ -691,9 +655,6 @@
       <Filter>Source Files\SimpleWallet</Filter>
     </ClCompile>
     <ClCompile Include="src\SimpleWallet\PasswordContainer.cpp">
-      <Filter>Source Files\SimpleWallet</Filter>
-    </ClCompile>
-    <ClCompile Include="src\SimpleWallet\SimpleWallet.cpp">
       <Filter>Source Files\SimpleWallet</Filter>
     </ClCompile>
     <ClCompile Include="src\SimpleWallet\Tools.cpp">
