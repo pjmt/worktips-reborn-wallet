@@ -303,9 +303,6 @@
     <ClCompile Include="src\crypto\tree-hash.c">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
-    <ClCompile Include="src\crypto\slow-hash.cpp">
-      <Filter>Header Files\crypto</Filter>
-    </ClCompile>
     <ClCompile Include="src\crypto\crypto.cpp">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
@@ -752,6 +749,12 @@
     </ClCompile>
     <ClCompile Include="src\Wallet\WalletUtils.cpp">
       <Filter>Source Files\Wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\slow-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto\slow-hash.cpp">
+      <Filter>Source Files\crypto</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1646,7 +1649,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="src\crypto\slow-hash.inl">
-      <Filter>Header Files\crypto</Filter>
+      <Filter>Source Files\crypto</Filter>
     </None>
   </ItemGroup>
 </Project>

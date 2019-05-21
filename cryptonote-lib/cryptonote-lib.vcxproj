@@ -109,7 +109,12 @@
     <ClCompile Include="src\crypto\oaes_lib.c" />
     <ClCompile Include="src\crypto\random.c" />
     <ClCompile Include="src\crypto\skein.c" />
-    <ClCompile Include="src\crypto\slow-hash.cpp" />
+    <ClCompile Include="src\crypto\slow-hash.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="src\crypto\slow-hash.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
     <ClCompile Include="src\crypto\tree-hash.c" />
     <ClCompile Include="src\Daemon\DaemonCommandsHandler.cpp" />
     <ClCompile Include="src\HTTP\HttpParser.cpp" />
@@ -592,6 +597,7 @@
       <DebugInformationFormat>None</DebugInformationFormat>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
