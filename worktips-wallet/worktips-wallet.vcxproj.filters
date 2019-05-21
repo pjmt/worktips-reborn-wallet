@@ -758,6 +758,102 @@
     <QtMoc Include="source\Gui\Send\TransferFrame.h">
       <Filter>Header Files\Gui\Send</Filter>
     </QtMoc>
+    <QtMoc Include="source\Gui\Common\TransactionsAmountDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\TransactionsHeaderView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\TransactionsTimeDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\TransfersHeaderView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletBlueButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletCancelButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletDescriptionLabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletGrayCheckBox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletLinkLikeButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletNavigationButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletOkButton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletTableView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletTextLabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Common\WalletWindowedItemModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\MainWindow\WalletStatusBar.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Mining\MinerDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Mining\PoolHeaderView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Mining\PoolTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Options\DonationAddressesModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\OverviewHeaderGlassFrame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\OverviewTransactionPoolModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\OverviewTransactionPoolTreeView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Overview\RecentTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Send\SendGlassFrame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\DrawableTransfersModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\FilteredByHashTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\FilteredTransactionsModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Gui\Transactions\TransactionsDelegate.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="worktipswallet.ui">
@@ -954,102 +1050,6 @@
     </ClInclude>
     <ClInclude Include="source\CryptoNoteWrapper\SemaphoreUtils.h">
       <Filter>Header Files\CryptoNoteWrapper</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\TransactionsAmountDelegate.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\TransactionsHeaderView.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\TransactionsTimeDelegate.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\TransfersHeaderView.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletBlueButton.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletCancelButton.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletDescriptionLabel.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletGrayCheckBox.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletLinkLikeButton.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletNavigationButton.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletOkButton.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletTableView.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletTextLabel.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletTreeView.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Common\WalletWindowedItemModel.h">
-      <Filter>Header Files\Gui\Common</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\MainWindow\WalletStatusBar.h">
-      <Filter>Header Files\Gui\MainWindow</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Mining\MinerDelegate.h">
-      <Filter>Header Files\Gui\Mining</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Mining\PoolHeaderView.h">
-      <Filter>Header Files\Gui\Mining</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Mining\PoolTreeView.h">
-      <Filter>Header Files\Gui\Mining</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Options\DonationAddressesModel.h">
-      <Filter>Header Files\Gui\Options</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\OverviewHeaderGlassFrame.h">
-      <Filter>Header Files\Gui\Overview</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolModel.h">
-      <Filter>Header Files\Gui\Overview</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\OverviewTransactionPoolTreeView.h">
-      <Filter>Header Files\Gui\Overview</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Overview\RecentTransactionsModel.h">
-      <Filter>Header Files\Gui\Overview</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Send\SendGlassFrame.h">
-      <Filter>Header Files\Gui\Send</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\DrawableTransfersModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\FilteredByAddressTransactionsModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\FilteredByAgeTransactionsModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\FilteredByHashTransactionsModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\FilteredByPeriodTransactionsModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\FilteredTransactionsModel.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
-    </ClInclude>
-    <ClInclude Include="source\Gui\Transactions\TransactionsDelegate.h">
-      <Filter>Header Files\Gui\Transactions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
