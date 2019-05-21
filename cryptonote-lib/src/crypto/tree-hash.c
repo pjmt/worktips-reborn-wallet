@@ -15,7 +15,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with Bytecoin.  If not, see <http://www.gnu.org/licenses/>.
 
-//#include <alloca.h>
+#include <malloc.h>
 #include <assert.h>
 #include <stddef.h>
 #include <string.h>
@@ -36,7 +36,7 @@ void tree_hash(const char (*hashes)[HASH_SIZE], size_t count, char *root_hash) {
       cnt |= cnt >> i;
     }
     cnt &= ~(cnt >> 1);
-    ints = alloca(cnt * HASH_SIZE);
+    ints = _alloca(cnt * HASH_SIZE);
     memcpy(ints, hashes, (2 * cnt - count) * HASH_SIZE);
     for (i = 2 * cnt - count, j = 2 * cnt - count; j < cnt; i += 2, ++j) {
       cn_fast_hash(hashes[i], 2 * HASH_SIZE, ints[j]);
