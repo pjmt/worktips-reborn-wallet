@@ -295,11 +295,7 @@
     <QtUic Include="worktipswallet.ui" />
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="worktipswallet.qrc">
-      <BinaryOutput Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</BinaryOutput>
-      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</DynamicSource>
-      <QmlCacheGenerate Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</QmlCacheGenerate>
-    </QtRcc>
+    <QtRcc Include="worktipswallet.qrc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\icons\actual_balance.png" />
