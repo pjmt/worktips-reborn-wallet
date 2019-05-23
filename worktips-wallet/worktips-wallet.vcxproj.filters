@@ -513,6 +513,12 @@
     <Filter Include="Header Files\Gui\Transactions">
       <UniqueIdentifier>{eaec8ba5-424b-4400-a480-0c895861804f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{0daea254-9699-4dc3-abab-5be77a329794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Fonts">
+      <UniqueIdentifier>{06cc1746-48be-4066-9cb0-43a05c9c32c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="worktipswallet.h">
@@ -965,6 +971,303 @@
     <Image Include="Resources\Images\worktips_logo.png">
       <Filter>Resource Files\Images</Filter>
     </Image>
+    <Image Include="resources\icons\actual_balance.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\address_book.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\address_book_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\address_book_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_circle.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_circle_hover.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_circle_up.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_circle_up_hover.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_left_black.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\arrow_right_black.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\balance.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\balance_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\big_arrow.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\big_arrow_black.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\block_explorer.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\block_explorer_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\block_explorer_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\blog.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\connected.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\connected_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\delete_pool.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\delete_pool_hover.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\disconnected.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\disconnected_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_address.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_address_small.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_clock1.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_clock2.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_clock3.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_clock4.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_clock5.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_confirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\donation_unconfirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\down-arrow.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_clock1.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_clock2.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_clock3.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_clock4.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_clock5.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_confirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\inp_unconfirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\lock_closed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\lock_closed_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\lock_open.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\lock_open_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\lock_open_gray.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\logo.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\logo_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_clock1.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_clock2.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_clock3.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_clock4.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_clock5.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\mined_confirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\miner.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\miner_big.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\miner_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\miner_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\opt_confirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_clock1.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_clock2.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_clock3.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_clock4.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_clock5.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_confirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_failed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\out_unconfirmed.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\overview.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\overview_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\overview_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\pending_balance.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\pool_stats.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\scroll_news_down.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\scroll_news_down_hover.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\scroll_news_up.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\scroll_news_up_hover.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\send.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\send_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\send_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\slider_handle.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\start.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\stop.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\sync.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\sync_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\sync_sprite.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\sync_sprite_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\synced.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\synced_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\total_balance.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\transactions.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\transactions_bl.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\transactions_bl_disabled.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\twitter.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\up_big_arrow.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\up_big_arrow_black.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\up-arrow.png">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\wallet_sync.gif">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\icons\wallet_sync_dark.gif">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resources\Images\add_address_helper.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\Gui\Options\IOptionsPage.h">
@@ -1056,5 +1359,45 @@
     <ResourceCompile Include="worktips-wallet.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\bytecoinwallet.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\Images\worktips.icns">
+      <Filter>Resource Files\Images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font\Lato-Black.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-BlackItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-Bold.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-BoldItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-Hairline.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-HairlineItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-Italic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-Light.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-LightItalic.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
+    <Font Include="resources\font\Lato-Regular.ttf">
+      <Filter>Resource Files\Fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>

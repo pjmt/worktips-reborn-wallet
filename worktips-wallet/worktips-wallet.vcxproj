@@ -109,6 +109,10 @@
       <ShowProgress>NotSet</ShowProgress>
       <EntryPointSymbol>
       </EntryPointSymbol>
+      <EmbedManagedResourceFile>
+      </EmbedManagedResourceFile>
+      <AssemblyLinkResource>
+      </AssemblyLinkResource>
     </Link>
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
@@ -298,6 +302,105 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\icons\actual_balance.png" />
+    <Image Include="resources\icons\address_book.png" />
+    <Image Include="resources\icons\address_book_bl.png" />
+    <Image Include="resources\icons\address_book_bl_disabled.png" />
+    <Image Include="resources\icons\arrow_circle.png" />
+    <Image Include="resources\icons\arrow_circle_hover.png" />
+    <Image Include="resources\icons\arrow_circle_up.png" />
+    <Image Include="resources\icons\arrow_circle_up_hover.png" />
+    <Image Include="resources\icons\arrow_left_black.png" />
+    <Image Include="resources\icons\arrow_right_black.png" />
+    <Image Include="resources\icons\balance.png" />
+    <Image Include="resources\icons\balance_bl.png" />
+    <Image Include="resources\icons\big_arrow.png" />
+    <Image Include="resources\icons\big_arrow_black.png" />
+    <Image Include="resources\icons\block_explorer.png" />
+    <Image Include="resources\icons\block_explorer_bl.png" />
+    <Image Include="resources\icons\block_explorer_bl_disabled.png" />
+    <Image Include="resources\icons\blog.png" />
+    <Image Include="resources\icons\connected.png" />
+    <Image Include="resources\icons\connected_bl.png" />
+    <Image Include="resources\icons\delete_pool.png" />
+    <Image Include="resources\icons\delete_pool_hover.png" />
+    <Image Include="resources\icons\disconnected.png" />
+    <Image Include="resources\icons\disconnected_bl.png" />
+    <Image Include="resources\icons\donation_address.png" />
+    <Image Include="resources\icons\donation_address_small.png" />
+    <Image Include="resources\icons\donation_clock1.png" />
+    <Image Include="resources\icons\donation_clock2.png" />
+    <Image Include="resources\icons\donation_clock3.png" />
+    <Image Include="resources\icons\donation_clock4.png" />
+    <Image Include="resources\icons\donation_clock5.png" />
+    <Image Include="resources\icons\donation_confirmed.png" />
+    <Image Include="resources\icons\donation_unconfirmed.png" />
+    <Image Include="resources\icons\down-arrow.png" />
+    <Image Include="resources\icons\inp_clock1.png" />
+    <Image Include="resources\icons\inp_clock2.png" />
+    <Image Include="resources\icons\inp_clock3.png" />
+    <Image Include="resources\icons\inp_clock4.png" />
+    <Image Include="resources\icons\inp_clock5.png" />
+    <Image Include="resources\icons\inp_confirmed.png" />
+    <Image Include="resources\icons\inp_unconfirmed.png" />
+    <Image Include="resources\icons\lock_closed.png" />
+    <Image Include="resources\icons\lock_closed_bl.png" />
+    <Image Include="resources\icons\lock_open.png" />
+    <Image Include="resources\icons\lock_open_bl.png" />
+    <Image Include="resources\icons\lock_open_gray.png" />
+    <Image Include="resources\icons\logo.png" />
+    <Image Include="resources\icons\logo_bl.png" />
+    <Image Include="resources\icons\mined_clock1.png" />
+    <Image Include="resources\icons\mined_clock2.png" />
+    <Image Include="resources\icons\mined_clock3.png" />
+    <Image Include="resources\icons\mined_clock4.png" />
+    <Image Include="resources\icons\mined_clock5.png" />
+    <Image Include="resources\icons\mined_confirmed.png" />
+    <Image Include="resources\icons\miner.png" />
+    <Image Include="resources\icons\miner_big.png" />
+    <Image Include="resources\icons\miner_bl.png" />
+    <Image Include="resources\icons\miner_bl_disabled.png" />
+    <Image Include="resources\icons\opt_confirmed.png" />
+    <Image Include="resources\icons\out_clock1.png" />
+    <Image Include="resources\icons\out_clock2.png" />
+    <Image Include="resources\icons\out_clock3.png" />
+    <Image Include="resources\icons\out_clock4.png" />
+    <Image Include="resources\icons\out_clock5.png" />
+    <Image Include="resources\icons\out_confirmed.png" />
+    <Image Include="resources\icons\out_failed.png" />
+    <Image Include="resources\icons\out_unconfirmed.png" />
+    <Image Include="resources\icons\overview.png" />
+    <Image Include="resources\icons\overview_bl.png" />
+    <Image Include="resources\icons\overview_bl_disabled.png" />
+    <Image Include="resources\icons\pending_balance.png" />
+    <Image Include="resources\icons\pool_stats.png" />
+    <Image Include="resources\icons\scroll_news_down.png" />
+    <Image Include="resources\icons\scroll_news_down_hover.png" />
+    <Image Include="resources\icons\scroll_news_up.png" />
+    <Image Include="resources\icons\scroll_news_up_hover.png" />
+    <Image Include="resources\icons\send.png" />
+    <Image Include="resources\icons\send_bl.png" />
+    <Image Include="resources\icons\send_bl_disabled.png" />
+    <Image Include="resources\icons\slider_handle.png" />
+    <Image Include="resources\icons\start.png" />
+    <Image Include="resources\icons\stop.png" />
+    <Image Include="resources\icons\sync.png" />
+    <Image Include="resources\icons\synced.png" />
+    <Image Include="resources\icons\synced_bl.png" />
+    <Image Include="resources\icons\sync_bl.png" />
+    <Image Include="resources\icons\sync_sprite.png" />
+    <Image Include="resources\icons\sync_sprite_bl.png" />
+    <Image Include="resources\icons\total_balance.png" />
+    <Image Include="resources\icons\transactions.png" />
+    <Image Include="resources\icons\transactions_bl.png" />
+    <Image Include="resources\icons\transactions_bl_disabled.png" />
+    <Image Include="resources\icons\twitter.png" />
+    <Image Include="resources\icons\up-arrow.png" />
+    <Image Include="resources\icons\up_big_arrow.png" />
+    <Image Include="resources\icons\up_big_arrow_black.png" />
+    <Image Include="resources\icons\wallet_sync.gif" />
+    <Image Include="resources\icons\wallet_sync_dark.gif" />
+    <Image Include="resources\Images\add_address_helper.png" />
     <Image Include="Resources\Images\splash.png" />
     <Image Include="Resources\Images\worktips.ico">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
@@ -449,6 +552,25 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="worktips-wallet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\bytecoinwallet.qss">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="resources\Images\worktips.icns" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\font\Lato-Black.ttf" />
+    <Font Include="resources\font\Lato-BlackItalic.ttf" />
+    <Font Include="resources\font\Lato-Bold.ttf" />
+    <Font Include="resources\font\Lato-BoldItalic.ttf" />
+    <Font Include="resources\font\Lato-Hairline.ttf" />
+    <Font Include="resources\font\Lato-HairlineItalic.ttf" />
+    <Font Include="resources\font\Lato-Italic.ttf" />
+    <Font Include="resources\font\Lato-Light.ttf" />
+    <Font Include="resources\font\Lato-LightItalic.ttf" />
+    <Font Include="resources\font\Lato-Regular.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
