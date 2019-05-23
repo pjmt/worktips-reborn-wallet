@@ -95,6 +95,7 @@
     <ClCompile Include="src\CryptoNoteProtocol\CryptoNoteProtocolHandler.cpp" />
     <ClCompile Include="src\crypto\blake256.c" />
     <ClCompile Include="src\crypto\chacha8.c" />
+    <ClCompile Include="src\crypto\cn_context.cpp" />
     <ClCompile Include="src\crypto\crypto-ops-data.c" />
     <ClCompile Include="src\crypto\crypto-ops.c" />
     <ClCompile Include="src\crypto\crypto.cpp" />
@@ -604,6 +605,10 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>boost_regex-vc140-mt.lib;boost_random-vc140-mt.lib;rocksdb.lib;bcrypt.lib;rpcrt4.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

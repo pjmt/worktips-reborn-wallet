@@ -38,7 +38,7 @@ namespace Crypto {
 
 #if defined(WIN32)
 
-  cn_context::cn_context() {
+  cn_context::cn_context() noexcept(false) {
     data = VirtualAlloc(nullptr, MAP_SIZE, MEM_COMMIT, PAGE_READWRITE);
     if (data == nullptr) {
       throw bad_alloc();
@@ -46,9 +46,9 @@ namespace Crypto {
   }
 
   cn_context::~cn_context() {
-    if (!VirtualFree(data, 0, MEM_RELEASE)) {
-      throw bad_alloc();
-    }
+	if (data != nullptr) {
+		VirtualFree(data, 0, MEM_RELEASE);
+	}
   }
 
 #else

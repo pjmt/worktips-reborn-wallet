@@ -756,6 +756,9 @@
     <ClCompile Include="src\crypto\slow-hash.cpp">
       <Filter>Source Files\crypto</Filter>
     </ClCompile>
+    <ClCompile Include="src\crypto\cn_context.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BlockchainExplorer\BlockchainExplorer.h">
