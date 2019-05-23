@@ -101,12 +101,14 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>$(ProjectDir)$(IntDir);$(VcpkgRoot)lib;C:\Libraries\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <AdditionalDependencies>cryptonote.lib;miniupnpc.lib;rocksdb.lib;bcrypt.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Network.lib;Qt5Widgets.lib;boost_program_options-vc140-mt.lib;boost_random-vc140-mt.lib;boost_regex-vc140-mt.lib;boost_thread-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>cryptonote.lib;wtsapi32.lib;rpcrt4.lib;shlwapi.lib;bcrypt.lib;miniupnpc.lib;rocksdb.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Network.lib;Qt5Widgets.lib;boost_program_options-vc140-mt.lib;boost_random-vc140-mt.lib;boost_regex-vc140-mt.lib;boost_thread-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>NotSet</ShowProgress>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
     </Link>
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
