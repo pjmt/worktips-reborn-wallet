@@ -291,7 +291,7 @@
      </layout>
     </widget>
    </item>
-   <item>
+   <!--<item>
     <widget class="QFrame" name="m_overviewMiningFrame">
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -496,7 +496,7 @@
       </item>
      </layout>
     </widget>
-   </item>
+   </item>-->
    <item>
     <widget class="QFrame" name="m_overviewPoolFrame">
      <property name="frameShape">

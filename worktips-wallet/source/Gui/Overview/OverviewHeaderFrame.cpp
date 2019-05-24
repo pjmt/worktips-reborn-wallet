@@ -173,8 +173,8 @@ void OverviewHeaderFrame::setNodeStateModel(QAbstractItemModel* _model) {
   m_nodeStateModel = _model;
   QDataWidgetMapper* stateMapper = new QDataWidgetMapper(this);
   stateMapper->setModel(m_nodeStateModel);
-  stateMapper->addMapping(m_ui->m_overviewNetworkHashrateLabel, NodeStateModel::COLUMN_NETWORK_HASHRATE, "text");
-  stateMapper->addMapping(m_ui->m_overviewNetworkDifficultyLabel, NodeStateModel::COLUMN_LAST_LOCAL_BLOCK_DIFFICULTY, "text");
+  //stateMapper->addMapping(m_ui->m_overviewNetworkHashrateLabel, NodeStateModel::COLUMN_NETWORK_HASHRATE, "text");
+  //stateMapper->addMapping(m_ui->m_overviewNetworkDifficultyLabel, NodeStateModel::COLUMN_LAST_LOCAL_BLOCK_DIFFICULTY, "text");
   stateMapper->setCurrentIndex(0);
 }
 
@@ -204,11 +204,11 @@ void OverviewHeaderFrame::setTransactionPoolModel(QAbstractItemModel* _model) {
 
 void OverviewHeaderFrame::setMinerModel(QAbstractItemModel *_model) {
   m_miningMapper->setModel(_model);
-  m_miningMapper->addMapping(m_ui->m_overviewHashRateLabel, MinerModel::COLUMN_HASHRATE, "text");
+  //m_miningMapper->addMapping(m_ui->m_overviewHashRateLabel, MinerModel::COLUMN_HASHRATE, "text");
   if (_model->rowCount() > 0) {
     m_miningMapper->setCurrentIndex(0);
   } else {
-    m_ui->m_overviewHashRateLabel->setText("0 H/s");
+    //m_ui->m_overviewHashRateLabel->setText("0 H/s");
   }
 }
 
@@ -229,25 +229,25 @@ void OverviewHeaderFrame::minersUnloaded() {
 }
 
 void OverviewHeaderFrame::miningStarted() {
-  if (!m_ui->m_startMiningButton->isChecked()) {
-    m_ui->m_startMiningButton->setChecked(true);
-    m_ui->m_startMiningButton->setText(tr("Stop mining"));
-    m_ui->m_miningStateLabel->setText(tr("mining on"));
-    m_ui->m_miningStateLabel->setProperty("miningRunning", true);
-    m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
-    m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
-  }
+  //if (!m_ui->m_startMiningButton->isChecked()) {
+  //  m_ui->m_startMiningButton->setChecked(true);
+  //  m_ui->m_startMiningButton->setText(tr("Stop mining"));
+  //  m_ui->m_miningStateLabel->setText(tr("mining on"));
+  //  m_ui->m_miningStateLabel->setProperty("miningRunning", true);
+  //  m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
+  //  m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
+  //}
 }
 
 void OverviewHeaderFrame::miningStopped() {
-  if (m_ui->m_startMiningButton->isChecked()) {
-    m_ui->m_startMiningButton->setChecked(false);
-    m_ui->m_startMiningButton->setText(tr("Start mining"));
-    m_ui->m_miningStateLabel->setText(tr("mining off"));
-    m_ui->m_miningStateLabel->setProperty("miningRunning", false);
-    m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
-    m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
-  }
+  //if (m_ui->m_startMiningButton->isChecked()) {
+  //  m_ui->m_startMiningButton->setChecked(false);
+  //  m_ui->m_startMiningButton->setText(tr("Start mining"));
+  //  m_ui->m_miningStateLabel->setText(tr("mining off"));
+  //  m_ui->m_miningStateLabel->setProperty("miningRunning", false);
+  //  m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
+  //  m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
+  //}
 }
 
 void OverviewHeaderFrame::activeMinerChanged(quintptr _minerIndex) {
@@ -337,7 +337,7 @@ void OverviewHeaderFrame::walletStateModelDataChanged(const QModelIndex& _topLef
     bool walletAboutToBeSynchronized = _topLeft.data().toBool();
     if (!walletAboutToBeSynchronized) {
       m_balancesGlassFrame->install(m_ui->m_overviewBalanceFrame);
-      m_miningStatsGlassFrame->install(m_ui->m_overviewMiningFrame);
+      //m_miningStatsGlassFrame->install(m_ui->m_overviewMiningFrame);
       m_transactionPoolGlassFrame->install(m_ui->m_overviewPoolFrame);
       m_syncMovie->start();
     } else {
@@ -360,20 +360,20 @@ void OverviewHeaderFrame::poolTransactionClicked(const QModelIndex& _index) {
 }
 
 void OverviewHeaderFrame::startMiningClicked(bool _on) {
-  if (_on) {
-    m_ui->m_startMiningButton->setText(tr("Stop mining"));
-    m_ui->m_miningStateLabel->setText(tr("mining on"));
-    m_ui->m_miningStateLabel->setProperty("miningRunning", true);
-    m_miningManager->startMining();
-  } else {
-    m_ui->m_startMiningButton->setText(tr("Start mining"));
-    m_ui->m_miningStateLabel->setText(tr("mining off"));
-    m_ui->m_miningStateLabel->setProperty("miningRunning", false);
-    m_miningManager->stopMining();
-  }
+  //if (_on) {
+  //  m_ui->m_startMiningButton->setText(tr("Stop mining"));
+  //  m_ui->m_miningStateLabel->setText(tr("mining on"));
+  //  m_ui->m_miningStateLabel->setProperty("miningRunning", true);
+  //  m_miningManager->startMining();
+  //} else {
+  //  m_ui->m_startMiningButton->setText(tr("Start mining"));
+  //  m_ui->m_miningStateLabel->setText(tr("mining off"));
+  //  m_ui->m_miningStateLabel->setProperty("miningRunning", false);
+  //  m_miningManager->stopMining();
+  //}
 
-  m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
-  m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
+  //m_ui->m_miningStateLabel->style()->unpolish(m_ui->m_miningStateLabel);
+  //m_ui->m_miningStateLabel->style()->polish(m_ui->m_miningStateLabel);
 }
 
 }
