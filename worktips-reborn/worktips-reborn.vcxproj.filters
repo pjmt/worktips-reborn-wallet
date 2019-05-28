@@ -1,0 +1,1219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\blockchain_db">
+      <UniqueIdentifier>{5cf1b68d-dac4-44a3-be36-8ee574013852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blockchain_db\berkeleydb">
+      <UniqueIdentifier>{719a90ef-0805-4dc4-8ed8-9abf240962a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blockchain_db\lmdb">
+      <UniqueIdentifier>{e90b572a-2ffe-4610-bc1a-effdd076e0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blockchain_db">
+      <UniqueIdentifier>{3e588b39-ec74-4e83-ac48-044b61e29595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blockchain_db\berkeleydb">
+      <UniqueIdentifier>{263a9780-a6aa-4c00-853c-b363dd54a400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blockchain_db\lmdb">
+      <UniqueIdentifier>{c60c3b07-159d-4492-ac9b-4eb7bc1d3ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blockchain_utilities">
+      <UniqueIdentifier>{60fe1811-90ce-448e-8878-fc390cac25df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blockchain_utilities">
+      <UniqueIdentifier>{dccffd86-ed84-4dc4-adf0-8b7b80d2875b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blocks">
+      <UniqueIdentifier>{d23305c5-af0e-4de9-85aa-f5f85313e5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blocks">
+      <UniqueIdentifier>{7033d4c3-074b-4f49-9f72-6f5beae148b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\checkpoints">
+      <UniqueIdentifier>{bcc8781d-b914-4306-9223-b79a154be828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\checkpoints">
+      <UniqueIdentifier>{cbc595e6-1791-4094-b5cc-0af754b3d8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{d6951821-767c-4fca-bfe2-5bbb171f2fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{73d13169-7028-4799-8ca1-b6f5aa9a74c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{8b0cfea0-bd4a-4974-8235-8d527c60a3ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crypto">
+      <UniqueIdentifier>{4bb2f218-4669-4e9d-b5df-e3c4d9e35264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cryptonote_basic">
+      <UniqueIdentifier>{6241fdfe-871b-4576-9716-e2e0d2f30fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptonote_basic">
+      <UniqueIdentifier>{9cbb8dfa-d3c1-49ca-b800-c21492cafc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cryptonote_core">
+      <UniqueIdentifier>{1f84dfd2-b6b2-464c-b3f6-7df3db43e324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptonote_core">
+      <UniqueIdentifier>{93391020-21c7-4dcd-b6be-bd0dda21ff63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cryptonote_protocol">
+      <UniqueIdentifier>{1290a48f-0882-4d1d-85d7-f5cc89b8eb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cryptonote_protocol">
+      <UniqueIdentifier>{f75f7dd7-f19c-4bd7-94f0-3ea51f08f91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\daemon">
+      <UniqueIdentifier>{7d173c4c-4d65-4122-a7fc-ea33ef16faf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\daemon">
+      <UniqueIdentifier>{bf427b67-051e-49be-9e73-7a1b260a5f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\daemonizer">
+      <UniqueIdentifier>{5ec315de-bf94-4bae-bc7a-4ac3a587f670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\daemonizer">
+      <UniqueIdentifier>{f1737792-9f72-4e1d-81d3-e98e025ce82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\debug_utilities">
+      <UniqueIdentifier>{4784f187-84c9-4ad5-b5d5-7eba58326c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\device">
+      <UniqueIdentifier>{7adc28a8-6fb7-4d20-813d-9c31c5cf17bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\device">
+      <UniqueIdentifier>{cbf85a9b-f4d2-4494-b27a-70c2d502212d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\device_trezor">
+      <UniqueIdentifier>{7fe31feb-d6da-4b4f-b3fa-eee988c10779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\device_trezor\trezor">
+      <UniqueIdentifier>{597d6018-8f30-4ef7-a489-dd43684ddf09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\device_trezor">
+      <UniqueIdentifier>{24b0a26c-a8c1-4707-a27f-bfc32d2c78b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\device_trezor\trezor">
+      <UniqueIdentifier>{467f7f47-288a-4db6-a8bb-a5dbbba0b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gen_multiseg">
+      <UniqueIdentifier>{beba37f1-1078-48e0-a447-5b37a7bf18b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\mnemonics">
+      <UniqueIdentifier>{49faa57d-6352-4cdf-8a14-d06ed08789e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mnemonics">
+      <UniqueIdentifier>{c5691a8c-93c1-42d6-87fa-9114391d73aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\multiseg">
+      <UniqueIdentifier>{3301db91-0643-4d0f-82ce-1c757ff13ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\multiseg">
+      <UniqueIdentifier>{2f66cafc-0b0e-4a61-aadf-21594d99cb80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\p2p">
+      <UniqueIdentifier>{9566fe04-dd0f-4518-9cc9-54b18104547e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\p2p">
+      <UniqueIdentifier>{44f10647-2ff2-4c4b-9cc2-dec2820c08ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\platform">
+      <UniqueIdentifier>{21fedf06-b4ec-4ecc-976d-9e6a87ae5937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\platform\msc">
+      <UniqueIdentifier>{f57aff2a-a682-47d1-b337-f76419b06b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\platform\msc\sys">
+      <UniqueIdentifier>{6177a73c-cfe3-4bff-b59c-9dd9e6c7c762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ringct">
+      <UniqueIdentifier>{98a26c62-835a-47ca-9832-2962cc9a9887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ringct">
+      <UniqueIdentifier>{9dc37961-2c67-454e-b7c8-fa4cf29d2e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rpc">
+      <UniqueIdentifier>{5dff2eaa-770f-4772-ad48-a4d079f3f257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rpc">
+      <UniqueIdentifier>{c82f3082-3306-41cf-8bc3-25d6d98676bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\serialization">
+      <UniqueIdentifier>{96beff51-95c8-4e89-87f4-2415c0527fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serialization">
+      <UniqueIdentifier>{8fc041b7-60a5-4e67-9c12-4ebfb602750c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\simplewallet">
+      <UniqueIdentifier>{463d6bdc-d71e-4540-b949-c05205bf6f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\simplewallet">
+      <UniqueIdentifier>{17bd060d-a9f1-4a85-913b-5430739af808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wallet">
+      <UniqueIdentifier>{f5f1947b-df27-4b02-831c-7794d0d9aee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wallet\api">
+      <UniqueIdentifier>{d8c95af3-518e-4368-a914-4cdb8d5a30ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wallet">
+      <UniqueIdentifier>{5bb64c02-1932-42b2-b3b4-3434a523c868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wallet\api">
+      <UniqueIdentifier>{501df691-b499-4d55-b653-8df7ce71bc01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\worktips\include\INode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\include\IWallet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_db\blockchain_db.h">
+      <Filter>Header Files\blockchain_db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_db\db_types.h">
+      <Filter>Header Files\blockchain_db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_db\testdb.h">
+      <Filter>Header Files\blockchain_db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_db\berkeleydb\db_bdb.h">
+      <Filter>Header Files\blockchain_db\berkeleydb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_db\lmdb\db_lmdb.h">
+      <Filter>Header Files\blockchain_db\lmdb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\bootstrap_serialization.h">
+      <Filter>Header Files\blockchain_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blockchain_objects.h">
+      <Filter>Header Files\blockchain_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blockchain_utilities.h">
+      <Filter>Header Files\blockchain_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blocksdat_file.h">
+      <Filter>Header Files\blockchain_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\bootstrap_file.h">
+      <Filter>Header Files\blockchain_utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\blocks\blocks.h">
+      <Filter>Header Files\blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\checkpoints\checkpoints.h">
+      <Filter>Header Files\checkpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\json_util.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\notify.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\password.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\perf_timer.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\pod-class.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\pruning.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\rpc_client.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\rules.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\scoped_message_writer.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\sfinae_helpers.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\spawn.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\stack_trace.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\threadpool.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\unordered_containers_boost_serialization.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\updates.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\util.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\varint.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\worktips.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\worktips_integration_test_hooks.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\aligned.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\apply_permutation.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\base58.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\boost_serialization_helper.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\combinator.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\command_line.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\common_fwd.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\dns_utils.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\download.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\error.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\expect.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\http_connection.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\common\i18n.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\blake256.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\chacha.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\cn_heavy_hash.hpp">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\crypto.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\crypto-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\generic-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\groestl.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\groestl_tables.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\hash.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\hash-ops.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\initializer.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\jh.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\keccak.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\oaes_config.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\oaes_lib.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\random.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\skein.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\skein_port.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\crypto\variant2_int_sqrt.h">
+      <Filter>Header Files\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\account.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\account_boost_serialization.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\blobdatatype.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\connection_context.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic_impl.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_boost_serialization.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_format_utils.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_stat_info.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\difficulty.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\hardfork.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\miner.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\subaddress_index.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\tx_extra.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\verification_context.h">
+      <Filter>Header Files\cryptonote_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\blockchain.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\blockchain_storage_boost_serialization.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\cryptonote_core.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\cryptonote_tx_utils.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_deregister.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_list.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_quorum_cop.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_rules.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\tx_pool.h">
+      <Filter>Header Files\cryptonote_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\block_queue.h">
+      <Filter>Header Files\cryptonote_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_defs.h">
+      <Filter>Header Files\cryptonote_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler.h">
+      <Filter>Header Files\cryptonote_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler_common.h">
+      <Filter>Header Files\cryptonote_protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\command_line_args.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\command_parser_executor.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\command_server.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\core.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\daemon.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\executor.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\p2p.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\protocol.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\rpc.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemon\rpc_command_executor.h">
+      <Filter>Header Files\daemon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemonizer\daemonizer.h">
+      <Filter>Header Files\daemonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemonizer\posix_fork.h">
+      <Filter>Header Files\daemonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemonizer\windows_service.h">
+      <Filter>Header Files\daemonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\daemonizer\windows_service_runner.h">
+      <Filter>Header Files\daemonizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device_cold.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device_default.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device_io.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device_io_hid.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\device_ledger.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device\log.hpp">
+      <Filter>Header Files\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\exceptions.hpp">
+      <Filter>Header Files\device_trezor\trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\messages_map.hpp">
+      <Filter>Header Files\device_trezor\trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\protocol.hpp">
+      <Filter>Header Files\device_trezor\trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\transport.hpp">
+      <Filter>Header Files\device_trezor\trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\trezor_defs.hpp">
+      <Filter>Header Files\device_trezor\trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\device_trezor.hpp">
+      <Filter>Header Files\device_trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\device_trezor_base.hpp">
+      <Filter>Header Files\device_trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor.hpp">
+      <Filter>Header Files\device_trezor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\chinese_simplified.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\dutch.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\electrum-words.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\english.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\english_old.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\esperanto.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\french.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\german.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\italian.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\japanese.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\language_base.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\lojban.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\portuguese.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\russian.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\singleton.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\mnemonics\spanish.h">
+      <Filter>Header Files\mnemonics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\multisig\multisig.h">
+      <Filter>Header Files\multiseg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\net_node.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\net_node_common.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\net_peerlist.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\net_peerlist_boost_serialization.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\p2p_protocol_defs.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\p2p\stdafx.h">
+      <Filter>Header Files\p2p</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\platform\msc\alloca.h">
+      <Filter>Header Files\platform\msc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\platform\msc\inline_c.h">
+      <Filter>Header Files\platform\msc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\platform\msc\stdbool.h">
+      <Filter>Header Files\platform\msc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\platform\msc\sys\param.h">
+      <Filter>Header Files\platform\msc\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\bulletproofs.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\multiexp.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\rctCryptoOps.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\rctOps.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\rctSigs.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\ringct\rctTypes.h">
+      <Filter>Header Files\ringct</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server_commands_defs.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server_error_codes.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_handler.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_messages.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_rpc_version.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\message.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\message_data_structs.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\rpc_args.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\rpc_handler.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\rpc\zmq_server.h">
+      <Filter>Header Files\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\binary_archive.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\binary_utils.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\container.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\crypto.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\debug_archive.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\deque.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\json_archive.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\json_object.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\json_utils.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\list.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\pair.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\serialization.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\set.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\string.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\unordered_set.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\variant.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\serialization\vector.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\simplewallet\simplewallet.h">
+      <Filter>Header Files\simplewallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\address_book.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\common_defines.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\pending_transaction.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\subaddress.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\subaddress_account.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\transaction_history.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\transaction_info.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\unsigned_transaction.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet_manager.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet2_api.h">
+      <Filter>Header Files\wallet\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\message_store.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\message_transporter.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\node_rpc_proxy.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\ringdb.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_args.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_errors.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server_commands_defs.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server_error_codes.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\wallet\wallet2.h">
+      <Filter>Header Files\wallet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\cryptonote_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\external\worktips\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\worktips\src\blockchain_db\berkeleydb\db_bdb.cpp">
+      <Filter>Source Files\blockchain_db\berkeleydb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_db\lmdb\db_lmdb.cpp">
+      <Filter>Source Files\blockchain_db\lmdb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_db\blockchain_db.cpp">
+      <Filter>Source Files\blockchain_db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_ancestry.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_blackball.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_depth.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_export.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_import.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_prune.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_prune_known_spent_data.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_stats.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_usage.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blocksdat_file.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\bootstrap_file.cpp">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\blocks\blocks.cpp">
+      <Filter>Source Files\blocks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\checkpoints\checkpoints.cpp">
+      <Filter>Source Files\checkpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\aligned.c">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\base58.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\combinator.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\command_line.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\dns_utils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\download.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\error.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\expect.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\i18n.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\notify.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\password.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\perf_timer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\pruning.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\rules.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\scoped_message_writer.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\spawn.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\stack_trace.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\threadpool.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\updates.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\util.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\common\worktips.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\aesb.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\blake256.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\chacha.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\cn_turtle_hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\crypto-ops.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\crypto-ops-data.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-blake.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-groestl.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\jh.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\keccak.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\oaes_lib.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\random.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\skein.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\tree-hash.c">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_hard_arm.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_hard_intel.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_soft.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\crypto\crypto.cpp">
+      <Filter>Source Files\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\account.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic_impl.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\cryptonote_format_utils.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\difficulty.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\hardfork.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\miner.cpp">
+      <Filter>Source Files\cryptonote_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\blockchain.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\cryptonote_core.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\cryptonote_tx_utils.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_deregister.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_list.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_quorum_cop.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_rules.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\tx_pool.cpp">
+      <Filter>Source Files\cryptonote_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_protocol\block_queue.cpp">
+      <Filter>Source Files\cryptonote_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler-base.cpp">
+      <Filter>Source Files\cryptonote_protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\command_parser_executor.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\command_server.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\daemon.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\executor.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\main.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemon\rpc_command_executor.cpp">
+      <Filter>Source Files\daemon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemonizer\posix_fork.cpp">
+      <Filter>Source Files\daemonizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\daemonizer\windows_service.cpp">
+      <Filter>Source Files\daemonizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\debug_utilities\cn_deserialize.cpp">
+      <Filter>Source Files\debug_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\debug_utilities\object_sizes.cpp">
+      <Filter>Source Files\debug_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device\device.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device\device_default.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device\device_io_hid.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device\device_ledger.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device\log.cpp">
+      <Filter>Source Files\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\messages_map.cpp">
+      <Filter>Source Files\device_trezor\trezor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\protocol.cpp">
+      <Filter>Source Files\device_trezor\trezor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\transport.cpp">
+      <Filter>Source Files\device_trezor\trezor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device_trezor\device_trezor.cpp">
+      <Filter>Source Files\device_trezor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\device_trezor\device_trezor_base.cpp">
+      <Filter>Source Files\device_trezor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\gen_multisig\gen_multisig.cpp">
+      <Filter>Source Files\gen_multiseg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\mnemonics\electrum-words.cpp">
+      <Filter>Source Files\mnemonics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\multisig\multisig.cpp">
+      <Filter>Source Files\multiseg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\p2p\net_node.cpp">
+      <Filter>Source Files\p2p</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\bulletproofs.cc">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\multiexp.cc">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\rctOps.cpp">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\rctSigs.cpp">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\rctTypes.cpp">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\ringct\rctCryptoOps.c">
+      <Filter>Source Files\ringct</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\core_rpc_server.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\daemon_handler.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\daemon_messages.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\instanciations.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\message.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\rpc_args.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\rpc_handler.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\rpc\zmq_server.cpp">
+      <Filter>Source Files\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\serialization\json_object.cpp">
+      <Filter>Source Files\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\simplewallet\simplewallet.cpp">
+      <Filter>Source Files\simplewallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\address_book.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\pending_transaction.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\subaddress.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\subaddress_account.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\transaction_history.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\transaction_info.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\unsigned_transaction.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\utils.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\wallet.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\api\wallet_manager.cpp">
+      <Filter>Source Files\wallet\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\message_store.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\message_transporter.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\node_rpc_proxy.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\ringdb.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\wallet_args.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\wallet_rpc_server.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\external\worktips\src\wallet\wallet2.cpp">
+      <Filter>Source Files\wallet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\external\worktips\src\blockchain_utilities\README.md">
+      <Filter>Source Files\blockchain_utilities</Filter>
+    </None>
+    <None Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler.inl">
+      <Filter>Source Files\cryptonote_protocol</Filter>
+    </None>
+    <None Include="..\external\worktips\src\daemonizer\posix_daemonizer.inl">
+      <Filter>Source Files\daemonizer</Filter>
+    </None>
+    <None Include="..\external\worktips\src\daemonizer\windows_daemonizer.inl">
+      <Filter>Source Files\daemonizer</Filter>
+    </None>
+    <None Include="..\external\worktips\src\p2p\net_node.inl">
+      <Filter>Source Files\p2p</Filter>
+    </None>
+    <None Include="..\external\worktips\src\version.cpp.in">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

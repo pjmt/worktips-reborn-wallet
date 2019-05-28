@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktips-wallet", "worktips-wallet.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptonote-lib", "..\cryptonote-lib\cryptonote-lib.vcxproj", "{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktips-reborn", "..\worktips-reborn\worktips-reborn.vcxproj", "{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,20 @@ Global
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x64.Build.0 = Release|x64
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x86.ActiveCfg = Release|Win32
 		{710C32B4-C79D-4A39-9EAE-2AD3319E0F5C}.Release|x86.Build.0 = Release|Win32
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Debug|x64.ActiveCfg = Debug|x64
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Debug|x64.Build.0 = Debug|x64
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Debug|x86.ActiveCfg = Debug|Win32
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Debug|x86.Build.0 = Debug|Win32
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Release|x64.ActiveCfg = Release|x64
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Release|x64.Build.0 = Release|x64
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Release|x86.ActiveCfg = Release|Win32
+		{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {286BD313-32C2-4098-8E13-00D5FAC38C09}
 		Qt5Version = 5.9.8
+		SolutionGuid = {286BD313-32C2-4098-8E13-00D5FAC38C09}
 	EndGlobalSection
 EndGlobal

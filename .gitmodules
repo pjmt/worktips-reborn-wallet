@@ -1,0 +1,3 @@
+[submodule "external/worktips"]
+	path = external/worktips
+	url = https://github.com/worktips-project/worktips

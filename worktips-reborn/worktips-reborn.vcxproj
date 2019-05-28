@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{59F2AA1A-0BCA-41DB-811B-8CC0C51BB2AA}</ProjectGuid>
+    <RootNamespace>worktipsreborn</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TargetName>worktips</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\worktips\external\easylogging++;$(SolutionDir)..\external\worktips\src;$(VcpkgRoot)include;C:\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\worktips\include\INode.h" />
+    <ClInclude Include="..\external\worktips\include\IWallet.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_db\berkeleydb\db_bdb.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_db\blockchain_db.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_db\db_types.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_db\lmdb\db_lmdb.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_db\testdb.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blockchain_objects.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blockchain_utilities.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\blocksdat_file.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\bootstrap_file.h" />
+    <ClInclude Include="..\external\worktips\src\blockchain_utilities\bootstrap_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\blocks\blocks.h" />
+    <ClInclude Include="..\external\worktips\src\checkpoints\checkpoints.h" />
+    <ClInclude Include="..\external\worktips\src\common\aligned.h" />
+    <ClInclude Include="..\external\worktips\src\common\apply_permutation.h" />
+    <ClInclude Include="..\external\worktips\src\common\base58.h" />
+    <ClInclude Include="..\external\worktips\src\common\boost_serialization_helper.h" />
+    <ClInclude Include="..\external\worktips\src\common\combinator.h" />
+    <ClInclude Include="..\external\worktips\src\common\command_line.h" />
+    <ClInclude Include="..\external\worktips\src\common\common_fwd.h" />
+    <ClInclude Include="..\external\worktips\src\common\dns_utils.h" />
+    <ClInclude Include="..\external\worktips\src\common\download.h" />
+    <ClInclude Include="..\external\worktips\src\common\error.h" />
+    <ClInclude Include="..\external\worktips\src\common\expect.h" />
+    <ClInclude Include="..\external\worktips\src\common\http_connection.h" />
+    <ClInclude Include="..\external\worktips\src\common\i18n.h" />
+    <ClInclude Include="..\external\worktips\src\common\json_util.h" />
+    <ClInclude Include="..\external\worktips\src\common\notify.h" />
+    <ClInclude Include="..\external\worktips\src\common\password.h" />
+    <ClInclude Include="..\external\worktips\src\common\perf_timer.h" />
+    <ClInclude Include="..\external\worktips\src\common\pod-class.h" />
+    <ClInclude Include="..\external\worktips\src\common\pruning.h" />
+    <ClInclude Include="..\external\worktips\src\common\rpc_client.h" />
+    <ClInclude Include="..\external\worktips\src\common\rules.h" />
+    <ClInclude Include="..\external\worktips\src\common\scoped_message_writer.h" />
+    <ClInclude Include="..\external\worktips\src\common\sfinae_helpers.h" />
+    <ClInclude Include="..\external\worktips\src\common\spawn.h" />
+    <ClInclude Include="..\external\worktips\src\common\stack_trace.h" />
+    <ClInclude Include="..\external\worktips\src\common\threadpool.h" />
+    <ClInclude Include="..\external\worktips\src\common\unordered_containers_boost_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\common\updates.h" />
+    <ClInclude Include="..\external\worktips\src\common\util.h" />
+    <ClInclude Include="..\external\worktips\src\common\varint.h" />
+    <ClInclude Include="..\external\worktips\src\common\worktips.h" />
+    <ClInclude Include="..\external\worktips\src\common\worktips_integration_test_hooks.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\account.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\account_boost_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\blobdatatype.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\connection_context.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic_impl.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_boost_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_format_utils.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\cryptonote_stat_info.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\difficulty.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\hardfork.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\miner.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\subaddress_index.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\tx_extra.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_basic\verification_context.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_config.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\blockchain.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\blockchain_storage_boost_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\cryptonote_core.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\cryptonote_tx_utils.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_deregister.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_list.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_quorum_cop.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\service_node_rules.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_core\tx_pool.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\block_queue.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_defs.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler.h" />
+    <ClInclude Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler_common.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\blake256.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\chacha.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\cn_heavy_hash.hpp" />
+    <ClInclude Include="..\external\worktips\src\crypto\crypto-ops.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\crypto.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\generic-ops.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\groestl.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\groestl_tables.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\hash-ops.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\hash.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\initializer.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\jh.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\keccak.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\oaes_config.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\oaes_lib.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\random.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\skein.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\skein_port.h" />
+    <ClInclude Include="..\external\worktips\src\crypto\variant2_int_sqrt.h" />
+    <ClInclude Include="..\external\worktips\src\daemonizer\daemonizer.h" />
+    <ClInclude Include="..\external\worktips\src\daemonizer\posix_fork.h" />
+    <ClInclude Include="..\external\worktips\src\daemonizer\windows_service.h" />
+    <ClInclude Include="..\external\worktips\src\daemonizer\windows_service_runner.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\command_line_args.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\command_parser_executor.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\command_server.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\core.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\daemon.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\executor.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\p2p.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\protocol.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\rpc.h" />
+    <ClInclude Include="..\external\worktips\src\daemon\rpc_command_executor.h" />
+    <ClInclude Include="..\external\worktips\src\device\device.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\device_cold.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\device_default.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\device_io.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\device_io_hid.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\device_ledger.hpp" />
+    <ClInclude Include="..\external\worktips\src\device\log.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\device_trezor.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\device_trezor_base.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\exceptions.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\messages_map.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\protocol.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\transport.hpp" />
+    <ClInclude Include="..\external\worktips\src\device_trezor\trezor\trezor_defs.hpp" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\chinese_simplified.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\dutch.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\electrum-words.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\english.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\english_old.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\esperanto.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\french.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\german.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\italian.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\japanese.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\language_base.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\lojban.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\portuguese.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\russian.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\singleton.h" />
+    <ClInclude Include="..\external\worktips\src\mnemonics\spanish.h" />
+    <ClInclude Include="..\external\worktips\src\multisig\multisig.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\net_node.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\net_node_common.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\net_peerlist.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\net_peerlist_boost_serialization.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\p2p_protocol_defs.h" />
+    <ClInclude Include="..\external\worktips\src\p2p\stdafx.h" />
+    <ClInclude Include="..\external\worktips\src\platform\msc\alloca.h" />
+    <ClInclude Include="..\external\worktips\src\platform\msc\inline_c.h" />
+    <ClInclude Include="..\external\worktips\src\platform\msc\stdbool.h" />
+    <ClInclude Include="..\external\worktips\src\platform\msc\sys\param.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\bulletproofs.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\multiexp.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\rctCryptoOps.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\rctOps.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\rctSigs.h" />
+    <ClInclude Include="..\external\worktips\src\ringct\rctTypes.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server_commands_defs.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\core_rpc_server_error_codes.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_handler.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_messages.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\daemon_rpc_version.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\message.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\message_data_structs.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\rpc_args.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\rpc_handler.h" />
+    <ClInclude Include="..\external\worktips\src\rpc\zmq_server.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\binary_archive.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\binary_utils.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\container.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\crypto.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\debug_archive.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\deque.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\json_archive.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\json_object.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\json_utils.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\list.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\pair.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\serialization.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\set.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\string.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\unordered_set.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\variant.h" />
+    <ClInclude Include="..\external\worktips\src\serialization\vector.h" />
+    <ClInclude Include="..\external\worktips\src\simplewallet\simplewallet.h" />
+    <ClInclude Include="..\external\worktips\src\version.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\address_book.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\common_defines.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\pending_transaction.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\subaddress.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\subaddress_account.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\transaction_history.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\transaction_info.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\unsigned_transaction.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet2_api.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\api\wallet_manager.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\message_store.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\message_transporter.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\node_rpc_proxy.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\ringdb.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet2.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_args.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_errors.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server_commands_defs.h" />
+    <ClInclude Include="..\external\worktips\src\wallet\wallet_rpc_server_error_codes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\worktips\src\blockchain_db\berkeleydb\db_bdb.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_db\blockchain_db.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_db\lmdb\db_lmdb.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_ancestry.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_blackball.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_depth.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_export.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_import.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_prune.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_prune_known_spent_data.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_stats.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blockchain_usage.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\blocksdat_file.cpp" />
+    <ClCompile Include="..\external\worktips\src\blockchain_utilities\bootstrap_file.cpp" />
+    <ClCompile Include="..\external\worktips\src\blocks\blocks.cpp" />
+    <ClCompile Include="..\external\worktips\src\checkpoints\checkpoints.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\aligned.c" />
+    <ClCompile Include="..\external\worktips\src\common\base58.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\combinator.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\command_line.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\dns_utils.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\download.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\error.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\expect.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\i18n.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\notify.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\password.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\perf_timer.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\pruning.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\rules.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\scoped_message_writer.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\spawn.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\stack_trace.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\threadpool.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\updates.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\util.cpp" />
+    <ClCompile Include="..\external\worktips\src\common\worktips.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\account.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\cryptonote_basic_impl.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\cryptonote_format_utils.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\difficulty.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\hardfork.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_basic\miner.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\blockchain.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\cryptonote_core.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\cryptonote_tx_utils.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_deregister.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_list.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_quorum_cop.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\service_node_rules.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_core\tx_pool.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_protocol\block_queue.cpp" />
+    <ClCompile Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler-base.cpp" />
+    <ClCompile Include="..\external\worktips\src\crypto\aesb.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\blake256.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\chacha.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_hard_arm.cpp" />
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_hard_intel.cpp" />
+    <ClCompile Include="..\external\worktips\src\crypto\cn_heavy_hash_soft.cpp" />
+    <ClCompile Include="..\external\worktips\src\crypto\cn_turtle_hash.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\crypto-ops-data.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\crypto-ops.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\crypto.cpp" />
+    <ClCompile Include="..\external\worktips\src\crypto\groestl.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-blake.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-groestl.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-jh.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\hash-extra-skein.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\hash.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\jh.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\keccak.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\oaes_lib.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\random.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\skein.c" />
+    <ClCompile Include="..\external\worktips\src\crypto\tree-hash.c" />
+    <ClCompile Include="..\external\worktips\src\daemonizer\posix_fork.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemonizer\windows_service.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\command_parser_executor.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\command_server.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\daemon.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\executor.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\main.cpp" />
+    <ClCompile Include="..\external\worktips\src\daemon\rpc_command_executor.cpp" />
+    <ClCompile Include="..\external\worktips\src\debug_utilities\cn_deserialize.cpp" />
+    <ClCompile Include="..\external\worktips\src\debug_utilities\object_sizes.cpp" />
+    <ClCompile Include="..\external\worktips\src\device\device.cpp" />
+    <ClCompile Include="..\external\worktips\src\device\device_default.cpp" />
+    <ClCompile Include="..\external\worktips\src\device\device_io_hid.cpp" />
+    <ClCompile Include="..\external\worktips\src\device\device_ledger.cpp" />
+    <ClCompile Include="..\external\worktips\src\device\log.cpp" />
+    <ClCompile Include="..\external\worktips\src\device_trezor\device_trezor.cpp" />
+    <ClCompile Include="..\external\worktips\src\device_trezor\device_trezor_base.cpp" />
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\messages_map.cpp" />
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\protocol.cpp" />
+    <ClCompile Include="..\external\worktips\src\device_trezor\trezor\transport.cpp" />
+    <ClCompile Include="..\external\worktips\src\gen_multisig\gen_multisig.cpp" />
+    <ClCompile Include="..\external\worktips\src\mnemonics\electrum-words.cpp" />
+    <ClCompile Include="..\external\worktips\src\multisig\multisig.cpp" />
+    <ClCompile Include="..\external\worktips\src\p2p\net_node.cpp" />
+    <ClCompile Include="..\external\worktips\src\ringct\bulletproofs.cc" />
+    <ClCompile Include="..\external\worktips\src\ringct\multiexp.cc" />
+    <ClCompile Include="..\external\worktips\src\ringct\rctCryptoOps.c" />
+    <ClCompile Include="..\external\worktips\src\ringct\rctOps.cpp" />
+    <ClCompile Include="..\external\worktips\src\ringct\rctSigs.cpp" />
+    <ClCompile Include="..\external\worktips\src\ringct\rctTypes.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\core_rpc_server.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\daemon_handler.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\daemon_messages.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\instanciations.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\message.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\rpc_args.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\rpc_handler.cpp" />
+    <ClCompile Include="..\external\worktips\src\rpc\zmq_server.cpp" />
+    <ClCompile Include="..\external\worktips\src\serialization\json_object.cpp" />
+    <ClCompile Include="..\external\worktips\src\simplewallet\simplewallet.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\address_book.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\pending_transaction.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\subaddress.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\subaddress_account.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\transaction_history.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\transaction_info.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\unsigned_transaction.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\utils.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\wallet.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\api\wallet_manager.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\message_store.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\message_transporter.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\node_rpc_proxy.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\ringdb.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\wallet2.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\wallet_args.cpp" />
+    <ClCompile Include="..\external\worktips\src\wallet\wallet_rpc_server.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\external\worktips\src\blockchain_utilities\README.md" />
+    <None Include="..\external\worktips\src\cryptonote_protocol\cryptonote_protocol_handler.inl" />
+    <None Include="..\external\worktips\src\daemonizer\posix_daemonizer.inl" />
+    <None Include="..\external\worktips\src\daemonizer\windows_daemonizer.inl" />
+    <None Include="..\external\worktips\src\p2p\net_node.inl" />
+    <None Include="..\external\worktips\src\version.cpp.in" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
