@@ -80,8 +80,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\external\worktips\external\easylogging++;$(SolutionDir)..\external\worktips\src;$(VcpkgRoot)include;C:\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\external\worktips\src\platfom\msc;$(SolutionDir)..\external\worktips\contrib\epee\include;$(SolutionDir)..\external\worktips\external\rapidjson\include;$(SolutionDir)..\external\worktips\external\easylogging++;$(SolutionDir)..\external\worktips\external;$(SolutionDir)..\external\worktips\src\blockchain_db\lmdb;$(SolutionDir)..\external\worktips\src\blockchain_db;$(SolutionDir)..\external\worktips\src;$(VcpkgRoot)include;C:\Libraries\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_WIN32;WIN32;_WIN32_WINNT=0x0A00;DEFAULT_DB_TYPE="lmdb";_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
